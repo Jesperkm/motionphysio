@@ -10,7 +10,7 @@
     position: relative;
     top: 10px;
     margin: 0 auto;
-    width: 650px;
+    max-width: 650px;
     margin-bottom: 50px;
     margin-top: 15px;
     text-align:center;
@@ -29,6 +29,7 @@ span.break {
     position: relative;
     font-family: serif;
 }
+
 
 // Plugins (folder: /plugins)
 @import "plugins/clearfix";
@@ -55,3 +56,16 @@ span.break {
 
 // Media Queries (folder: /media_queries)
 @import "media_queries/960";
+
+
+.f-left {
+    float:left;
+}
+
+.f-right {
+    float:right;
+}
+
+#short-desc {
+    margin:50px 0 50px 0;
+}

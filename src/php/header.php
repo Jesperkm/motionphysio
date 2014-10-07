@@ -6,6 +6,7 @@
     <title>Motion Physio</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
 </head>
 <body>
 

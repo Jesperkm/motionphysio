@@ -6,7 +6,25 @@
         <div class="breaker"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi iure numquam magni unde veniam itaque vero mollitia laborum dolor libero, dolorem quas odio voluptatibus ab alias! Quis odio optio, numquam.</p>
     </div>
-    <div id="scroll"><a href="#products"><img src="img/scroll.png" alt="scroll" /></a></div>
+    <div id="scroll"><a href="#short-desc"><img src="img/scroll.png" alt="scroll" /></a></div>
+</section>
+
+<section id="short-desc">
+    <div class="grid grid-pad">
+        <div class="col-1-2">
+           <div class="content">
+               <img alt="placeholder" src="img/firstbreak_image.jpg">
+           </div>
+        </div>
+        <div class="col-1-2">
+           <div class="content f-left">
+            <h2><span class="object">01</span><span class="break">/</span>WHAT IS MOTION PHYSIO</h2>
+            <h1>SHARING OUR EXPERTISE & KNOWLEDGE</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
+               <div class="smallsep f-left"></div>
+           </div>
+        </div>
+    </div>
 </section>
 
 <section id="products">
@@ -167,21 +185,27 @@
 </div>
 </section>
 <section id="about">
-  <div class="content">
-    <h1>ABOUT</h1>
-                <div class="mediumsep"></div>
-                    <p id="undertekst">
-                      Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
-                      nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
-                      vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
-                    </p></div>
-                    </div>
+
+    <div class="grid grid-pad">
+        <div class="col-1-1">
+          <div class="content">
+            <h1>ABOUT</h1>
+                        <div class="mediumsep"></div>
+                            <p id="undertekst">
+                              Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
+                              nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
+                              vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
+                            </p>
+            </div>
+        </div>
+    </div>
+
     <div class="longsep"></div>
 
     <div class="grid grid-pad">
         <div class="col-1-2">
            <div class="content">
-               <img id="image" alt="placeholder" src="http://placehold.it/550x250">
+               <img alt="placeholder" src="img/about_image1.jpg">
            </div>
         </div>
         <div class="col-1-2">
@@ -200,12 +224,12 @@
            <div class="content">
             <h2><span class="object">02</span><span class="break">/</span>Raspberry Pi</h2>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
-               <div class="smallsep f-left"></div>
+               <div class="smallsep f-right"></div>
            </div>
         </div>
         <div class="col-1-2">
            <div class="content">
-               <img id="image" alt="placeholder" src="http://placehold.it/550x250">
+               <img alt="placeholder" src="img/about_image2.jpg">
            </div>
         </div>
     </div>
@@ -213,8 +237,23 @@
 
 <section id="contact">
     <div class="grid grid-pad">
-        <h1>Contact</h1>
-        <div class="col-1-2">
+        <div class="col-1-1">
+          <div class="content">
+            <h1>CONTACT</h1>
+                <div class="mediumsep"></div>
+                    <p id="undertekst">
+                      Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
+                      nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
+                      vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
+                    </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="map_canvas"></div>
+
+    <div class="grid grid-pad">
+        <div class="col-1-1">
            <div class="content">
                 <form action="" class="form" method="post" autocomplete="off">
 
@@ -233,14 +272,6 @@
                     <textarea name="text" id="detail" placeholder="Insert the message here"></textarea>
                     <input type="submit" value="Submit" id="submit"/>
                 </form>
-           </div>
-        </div>
-
-        <div class="col-1-2">
-           <div class="content">
-                <h3>Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, quia? Quisquam temporibus iusto laboriosam! Dicta impedit nostrum facere officia eveniet consectetur amet saepe, quibusdam quas labore rerum modi atque, maiores.</p>
-               <img id="image" alt="placeholder" src="http://placehold.it/550x250">
            </div>
         </div>
     </div>
