@@ -30,7 +30,7 @@
         <div class="col-1-3">
            <div class="content">
                <div class="box">
-               <img id="image" alt="placeholder" src="img/product.jpg">
+               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
@@ -44,7 +44,7 @@
         <div class="col-1-3">
            <div class="content">
                <div class="box">
-               <img id="image" alt="placeholder" src="img/product.jpg">
+               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
@@ -58,24 +58,7 @@
         <div class="col-1-3">
            <div class="content">
                <div class="box">
-               <img id="image" alt="placeholder" src="img/product.jpg">
-               <h3>Raspberry Pi med SD kort </h3>
-               <h4>Antal Enheder 3</h4>
-               <span class="price">$200.00</span>
-                    <ul>
-                      <li class="shop"></li>
-                      <li class="info"></li>
-                    </ul>
-               </div>
-           </div>
-        </div>
-    </div>
-
-     <div class="grid grid-pad">
-        <div class="col-1-3">
-           <div class="content">
-               <div class="box">
-               <img id="image" alt="placeholder" src="img/product.jpg">
+               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
@@ -89,7 +72,21 @@
         <div class="col-1-3">
            <div class="content">
                <div class="box">
-               <img id="image" alt="placeholder" src="img/product.jpg">
+               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
+               <h3>Raspberry Pi med SD kort </h3>
+               <h4>Antal Enheder 3</h4>
+               <span class="price">$200.00</span>
+                    <ul>
+                      <li class="shop"></li>
+                      <li class="info"></li>
+                    </ul>
+               </div>
+           </div>
+        </div>
+        <div class="col-1-3">
+           <div class="content">
+               <div class="box">
+               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
@@ -103,7 +100,7 @@
         <div class="col-1-3">
            <div class="content">
               <div class="box">
-               <img id="image" alt="placeholder" src="img/product.jpg">
+               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
@@ -121,7 +118,7 @@
         <div class="longsep"></div>
     <div class="col-1-5">
        <div class="content">
-           <img width="90%" height="90%" src="img/keyboard.jpg" alt="">
+           <img width="50%" height="50%" src="img/SD4.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
@@ -130,7 +127,7 @@
     </div>
     <div class="col-1-5">
        <div class="content">
-           <img width="90%" height="90%" src="img/keyboard.jpg" alt="">
+           <img width="50%" height="50%" src="img/SD8.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
@@ -139,7 +136,7 @@
     </div>
     <div class="col-1-5">
        <div class="content">
-           <img width="90%" height="90%" src="img/keyboard.jpg" alt="">
+           <img width="50%" height="50%" src="img/SD16.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
@@ -148,7 +145,7 @@
     </div>
     <div class="col-1-5">
        <div class="content">
-           <img width="90%" height="90%" src="img/keyboard.jpg" alt="">
+           <img width="50%" height="50%" src="img/SD32.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
@@ -157,11 +154,55 @@
     </div>
     <div class="col-1-5">
        <div class="content">
-           <img width="90%" height="90%" src="img/keyboard.jpg" alt="">
+           <img width="50%" height="50%" src="img/stromforsyning.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
            <button>Add to basket</button>
+       </div>
+    </div>
+</div>
+</section>
+<section id="secondbreak">
+
+    <div class="grid grid-pad">
+       <h2><span class="object">01</span><span class="break">/</span>The Process</h2>
+         <div class="longsep"></div>
+    <div class="col-1-6">
+       <div class="content">
+
+           <img src="img/process-1.png" alt="">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+       </div>
+    </div>
+    <div class="col-1-6">
+       <div class="content">
+           <img src="img/process-2.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+       </div>
+    </div>
+    <div class="col-1-6">
+       <div class="content">
+           <img src="img/process-3.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+       </div>
+    </div>
+    <div class="col-1-6">
+       <div class="content">
+           <img src="img/process-4.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+       </div>
+    </div>
+    <div class="col-1-6">
+       <div class="content">
+           <img src="img/process-5.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+       </div>
+    </div>
+    <div class="col-1-6">
+       <div class="content">
+           <img src="img/process-6.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
        </div>
     </div>
 </div>
@@ -174,8 +215,8 @@
                       Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
                       nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
                       vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
-                    </p></div>
-                    </div>
+                    </p>
+    </div>
     <div class="longsep"></div>
 
     <div class="grid grid-pad">

@@ -89,9 +89,16 @@ span.price {
     border: 1px solid #000;
     background: none;
     height: 50px;
-    width: 190px;
+    width: 100%;
     margin-top: 20px;
     text-transform:uppercase;
+    @include prefix(transition, all 500ms ease)
+}
+
+.content button:hover{
+    color: #fff;
+    border:1px solid #047dcf;
+    background: #047dcf;
 }
 
 .content h5{
@@ -107,4 +114,12 @@ span.price {
 
 span.priceacc{
     margin-bottom:10px;
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    #undertekst{
+    width: 90%;
+    }
 }
