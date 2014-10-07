@@ -48,22 +48,22 @@ $(function() {
             zoomControl: false,
             scrollwheel: false,
             disableDoubleClickZoom: true
-        }
+        };
 
         map = new google.maps.Map(mapCanvas, mapOptions);
 
         // google maps color change
         map.set('styles', [
          {
-          featureType: "all",
-          elementType: "all",
+          featureType: 'all',
+          elementType: 'all',
           stylers: [
             { saturation: -100 } // <-- THIS
           ]
         }
         ]);
 
-        var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        /* jshint unused:false */
         var marker = new google.maps.Marker({
           position: new google.maps.LatLng(55.3809154, 10.4086351),
           map: map,
