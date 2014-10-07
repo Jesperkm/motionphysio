@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         shell: {
             // install bower packages
             bower: {
-                command: './node_modules/bower/bin/bower install'
+                command: 'node_modules/bower/bin/bower install'
             },
             server: {
                 command: 'cd build; php -S localhost:3005'
@@ -144,6 +144,13 @@ module.exports = function(grunt) {
             js: {
                 files: ['src/js/**/*.js'],
                 tasks: ['scripts'],
+                options: {
+                    livereload: true
+                }
+            },
+            php: {
+                files: ['src/php/**/*.php'],
+                tasks: ['copy:php'],
                 options: {
                     livereload: true
                 }
