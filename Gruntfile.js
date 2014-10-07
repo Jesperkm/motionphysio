@@ -50,9 +50,9 @@ module.exports = function(grunt) {
         compass: {
             build: {
                 options: {
-                    sassDir: './src/scss/',
+                    sassDir: 'src/scss/',
                     specify: 'src/scss/style.scss',
-                    cssDir: './build/',
+                    cssDir: 'build/',
                     outputStyle: 'compressed'
                 }
             }
