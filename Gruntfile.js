@@ -85,7 +85,8 @@ module.exports = function(grunt) {
                 trailing: true,
                 globals: {
                     $: false,
-                    jQuery: false
+                    jQuery: false,
+                    google: false
                 }
             },
             grunt: {

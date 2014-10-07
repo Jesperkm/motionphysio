@@ -87,48 +87,6 @@
                </div>
            </div>
         </div>
-        <div class="col-1-3">
-           <div class="content">
-               <div class="box">
-               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
-               <h3>Raspberry Pi med SD kort </h3>
-               <h4>Antal Enheder 3</h4>
-               <span class="price">$200.00</span>
-                    <ul>
-                      <li class="shop"></li>
-                      <li class="info"></li>
-                    </ul>
-               </div>
-           </div>
-        </div>
-        <div class="col-1-3">
-           <div class="content">
-               <div class="box">
-               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
-               <h3>Raspberry Pi med SD kort </h3>
-               <h4>Antal Enheder 3</h4>
-               <span class="price">$200.00</span>
-                    <ul>
-                      <li class="shop"></li>
-                      <li class="info"></li>
-                    </ul>
-               </div>
-           </div>
-        </div>
-        <div class="col-1-3">
-           <div class="content">
-              <div class="box">
-               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
-               <h3>Raspberry Pi med SD kort </h3>
-               <h4>Antal Enheder 3</h4>
-               <span class="price">$200.00</span>
-                    <ul>
-                      <li class="shop"></li>
-                      <li class="info"></li>
-                    </ul>
-               </div>
-           </div>
-        </div>
     </div>
 
     <div class="grid grid-pad">
@@ -227,32 +185,20 @@
 </section>
 <section id="about">
 
-
-  <!-- FIX YOUR INDENTATION.... GOD DAMNIT! -->
-
     <div class="grid grid-pad">
         <div class="col-1-1">
           <div class="content">
             <h1>ABOUT</h1>
-                        <div class="mediumsep"></div>
-                            <p id="undertekst">
-                              Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
-                              nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
-                              vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
-                            </p>
+            <div class="mediumsep"></div>
+                <p id="undertekst">
+                  Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
+                  nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
+                  vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
+                </p>
             </div>
         </div>
     </div>
 
-  <div class="content">
-    <h1>ABOUT</h1>
-                <div class="mediumsep"></div>
-                    <p id="undertekst">
-                      Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
-                      nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
-                      vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
-                    </p>
-    </div>
     <div class="longsep"></div>
 
     <div class="grid grid-pad">
