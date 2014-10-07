@@ -16,11 +16,9 @@ $(function() {
             menu.removeAttr('style');
         }
     });
-});
 
-//Smooth Scroll.
 
-$(function() {
+    //Smooth Scroll.
     var $root = $('html, body');
 
     $('a').click(function() {
@@ -34,6 +32,47 @@ $(function() {
     
         return false;
     });
+    
+    // google maps
+    var map;
+
+    function initialize() {
+
+        var mapCanvas = document.getElementById('map_canvas');
+        var mapOptions = {
+            center: new google.maps.LatLng(55.3809154, 10.4086351),
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            disableDefaultUI: true,
+            draggable: false,
+            zoomControl: false,
+            scrollwheel: false,
+            disableDoubleClickZoom: true
+        }
+
+        map = new google.maps.Map(mapCanvas, mapOptions);
+
+        // google maps color change
+        map.set('styles', [
+         {
+          featureType: "all",
+          elementType: "all",
+          stylers: [
+            { saturation: -100 } // <-- THIS
+          ]
+        }
+        ]);
+
+        var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(55.3809154, 10.4086351),
+          map: map,
+          icon: 'img/googlepointer.png',
+          size: new google.maps.Size(10, 10)
+        });
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
 });
 
 // navigation color switch on scroll
