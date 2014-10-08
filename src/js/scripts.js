@@ -50,6 +50,13 @@ $(function() {
             disableDoubleClickZoom: true
         };
 
+        // Resize map
+        google.maps.event.addDomListener(window, 'resize', function() {
+           var center = map.getCenter();
+           google.maps.event.trigger(map, 'resize');
+           map.setCenter(center); 
+        });
+
         map = new google.maps.Map(mapCanvas, mapOptions);
 
         // google maps color change

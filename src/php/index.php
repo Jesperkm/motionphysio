@@ -10,21 +10,17 @@
 </section>
 
 <section id="short-desc">
-    <div class="grid grid-pad">
-        <div class="col-1-2">
-           <div class="content">
-               <img alt="placeholder" src="img/firstbreak_image.jpg">
-           </div>
-        </div>
-        <div class="col-1-2">
-           <div class="content f-left">
-            <h2><span class="object">01</span><span class="break">/</span>WHAT IS MOTION PHYSIO</h2>
-            <h1>SHARING OUR EXPERTISE & KNOWLEDGE</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
-               <div class="smallsep f-left"></div>
-           </div>
-        </div>
-    </div>
+
+  <div class="short-desc-one">
+    <img alt="placeholder" src="img/firstbreak_image.jpg">
+  </div>
+
+  <div class="short-desc-two">
+    <h2 class="a-left"><span class="object">01</span><span class="break">/</span>WHAT IS MOTION PHYSIO</h2>
+      <h1 class="a-left">SHARING OUR EXPERTISE & KNOWLEDGE</h1>
+        <p class="a-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
+          <div class="smallsep f-left"></div>
+  </div>
 </section>
 
 <section id="products">
@@ -137,8 +133,8 @@
            <button>Add to basket</button>
        </div>
     </div>
-</div>
 </section>
+
 <section id="secondbreak">
 
     <div class="grid grid-pad">
@@ -181,8 +177,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
        </div>
     </div>
-</div>
 </section>
+
 <section id="about">
 
     <div class="grid grid-pad">
@@ -235,45 +231,89 @@
 </section>
 
 <section id="contact">
-    <div class="grid grid-pad">
-        <div class="col-1-1">
-          <div class="content">
-            <h1>CONTACT</h1>
-                <div class="mediumsep"></div>
-                    <p id="undertekst">
-                      Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
-                      nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
-                      vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
-                    </p>
-            </div>
-        </div>
-    </div>
+  <div class="grid grid-pad">
+      <div class="col-1-1">
+        <div class="content">
+          <h1>CONTACT</h1>
+              <div class="mediumsep"></div>
+                  <p id="undertekst">
+                    Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
+                    nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
+                    vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
+                  </p>
+          </div>
+      </div>
+  </div>
     
-    <div id="map_canvas"></div>
+  <div id="map_canvas"></div>
 
-    <div class="grid grid-pad">
-        <div class="col-1-1">
-           <div class="content">
-                <form action="" class="form" method="post" autocomplete="off">
+  <div id="contact-wrap">
+    <div id="contact-details">
+      <h1>DETAILS</h1>
+      <p class="contact-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ex eum suscipit soluta libero eveniet.</p>
+      
+      <div class="span-details">
+        <span>01</span>
+          <p>MUNKEBJERGVEJ 130</p></br />
+          <p>5000 ODENSE C</p></br />
+          <p>DENMARK</p>
+      </div>
 
-                    <fieldset>
-                        <input type="text" name="name" id="name" placeholder="Name" />
-                    </fieldset>
-                
-                    <fieldset>
-                        <input type="text" name="email" id="email" placeholder="Email@example.com" />
-                    </fieldset>
-                
-                    <fieldset>
-                        <input type="text" name="subject" id="subject" placeholder="Subject" />
-                    </fieldset>
+      <div class="span-details">
+        <span>02</span>
+          <p>EMAIL@EMAILADRESS.COM</p></br />
+          <p>FAX: 0440463423</p></br />
+          <p>CELLPHONE: +45 54 24 54 24</p>
+      </div>
 
-                    <textarea name="text" id="detail" placeholder="Insert the message here"></textarea>
-                    <input type="submit" value="Submit" id="submit"/>
-                </form>
-           </div>
-        </div>
+
+      <div class="span-details">
+        <span>03</span>
+          <p>DETAILS</p></br />
+          <p>DETAILS</p></br />
+          <p>DETAILS</p>
+      </div>
+
     </div>
+      
+    <div id="contact-form">
+      <form action="" class="form" method="post" autocomplete="off">
+
+          <fieldset>
+              <label for="name">Name<span class="red"> *</label>
+              <input type="text" name="name" id="name" />
+          </fieldset>
+      
+          <fieldset>
+              <label for="email">Email<span class="red"> *</label>
+              <input type="text" name="email" id="email" />
+          </fieldset>
+      
+          <fieldset class="mg-none">
+              <label for="subject">Subject<span class="red"> *</label>
+              <input type="text" name="subject" id="subject" />
+          </fieldset>
+
+          <fieldset>
+              <label for="company">Company<span class="red"> *</label>
+              <input type="text" name="company" id="company" />
+          </fieldset>
+      
+          <fieldset>
+              <label for="cellphone">Cellphone<span class="red"> *</label>
+              <input type="text" name="cellphone" id="cellphone" />
+          </fieldset>
+      
+          <fieldset class="mg-none">
+              <label for="city">City<span class="red"> *</label>
+              <input type="text" name="city" id="city" />
+          </fieldset>
+
+          <textarea name="text" id="detail"></textarea>
+          <input type="submit" value="SEND MESSAGE" id="submit"/>
+      </form>
+    </div>
+  </div>
 </section>
 
 <?php require "footer.php"; ?>
