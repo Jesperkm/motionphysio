@@ -30,6 +30,18 @@ span.break {
     font-family: serif;
 }
 
+.f-left {
+    float:left;
+}
+
+.f-right {
+    float:right;
+}
+
+#short-desc {
+    margin:50px 0 50px 0;
+}
+
 
 // Plugins (folder: /plugins)
 @import "plugins/clearfix";
@@ -57,16 +69,3 @@ span.break {
 
 // Media Queries (folder: /media_queries)
 @import "media_queries/960";
-
-
-.f-left {
-    float:left;
-}
-
-.f-right {
-    float:right;
-}
-
-#short-desc {
-    margin:50px 0 50px 0;
-}

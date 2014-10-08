@@ -92,6 +92,7 @@ span.price {
     width: 100%;
     margin-top: 20px;
     text-transform:uppercase;
+    margin-bottom:50px;
     @include prefix(transition, all 500ms ease)
 }
 
@@ -114,6 +115,18 @@ span.price {
 
 span.priceacc{
     margin-bottom:10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    #undertekst{
+    width: 90%;
+    }
+
+    .content button{
+    margin-bottom:0px;
+    }
 }
 
 

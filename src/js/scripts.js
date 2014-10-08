@@ -67,7 +67,7 @@ $(function() {
         var marker = new google.maps.Marker({
           position: new google.maps.LatLng(55.3809154, 10.4086351),
           map: map,
-          icon: 'img/googlepointer.png',
+          icon: '../img/googlepointer.png',
           size: new google.maps.Size(10, 10)
         });
     }

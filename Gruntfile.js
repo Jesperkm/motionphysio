@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     grunt.registerTask('build', ['clean', 'copy', 'styles', 'scripts']);
 
     grunt.registerTask('styles', ['compass']);
-    grunt.registerTask('scripts', ['shell:bower', 'jshint', 'concat', 'uglify']);
+    grunt.registerTask('scripts', [/*'shell:bower',*/ 'jshint', 'concat', 'uglify']);
 
 
     grunt.initConfig({

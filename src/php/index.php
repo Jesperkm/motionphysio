@@ -6,14 +6,14 @@
         <div class="breaker"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi iure numquam magni unde veniam itaque vero mollitia laborum dolor libero, dolorem quas odio voluptatibus ab alias! Quis odio optio, numquam.</p>
     </div>
-    <div id="scroll"><a href="#short-desc"><img src="img/scroll.png" alt="scroll" /></a></div>
+    <div id="scroll"><a href="#short-desc"><img src="../img/scroll.png" alt="scroll" /></a></div>
 </section>
 
 <section id="short-desc">
     <div class="grid grid-pad">
         <div class="col-1-2">
            <div class="content">
-               <img alt="placeholder" src="img/firstbreak_image.jpg">
+               <img alt="placeholder" src="../img/firstbreak_image.jpg">
            </div>
         </div>
         <div class="col-1-2">
@@ -48,7 +48,7 @@
         <div class="col-1-3">
            <div class="content">
                <div class="box">
-               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
+               <img id="image" width="50%" height="50%" alt="placeholder" src="../img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
@@ -62,7 +62,7 @@
         <div class="col-1-3">
            <div class="content">
                <div class="box">
-               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
+               <img id="image" width="50%" height="50%" alt="placeholder" src="../img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
@@ -76,7 +76,7 @@
         <div class="col-1-3">
            <div class="content">
                <div class="box">
-               <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
+               <img id="image" width="50%" height="50%" alt="placeholder" src="../img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
@@ -94,7 +94,7 @@
         <div class="longsep"></div>
     <div class="col-1-5">
        <div class="content">
-           <img width="50%" height="50%" src="img/SD4.jpg" alt="">
+           <img width="50%" height="50%" src="../img/SD4.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
@@ -103,7 +103,7 @@
     </div>
     <div class="col-1-5">
        <div class="content">
-           <img width="50%" height="50%" src="img/SD8.jpg" alt="">
+           <img width="50%" height="50%" src="../img/SD8.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
@@ -112,7 +112,7 @@
     </div>
     <div class="col-1-5">
        <div class="content">
-           <img width="50%" height="50%" src="img/SD16.jpg" alt="">
+           <img width="50%" height="50%" src="../img/SD16.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
@@ -121,7 +121,7 @@
     </div>
     <div class="col-1-5">
        <div class="content">
-           <img width="50%" height="50%" src="img/SD32.jpg" alt="">
+           <img width="50%" height="50%" src="../img/SD32.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
@@ -130,7 +130,7 @@
     </div>
     <div class="col-1-5">
        <div class="content">
-           <img width="50%" height="50%" src="img/stromforsyning.jpg" alt="">
+           <img width="50%" height="50%" src="../img/stromforsyning.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
@@ -139,50 +139,51 @@
     </div>
 </div>
 </section>
+<div class="longsep"></div>
 <section id="secondbreak">
 
     <div class="grid grid-pad">
-       <h2><span class="object">01</span><span class="break">/</span>The Process</h2>
-         <div class="longsep"></div>
+       <h2><span class="object">01</span><span class="break">/</span>The Process blueprint</h2>
     <div class="col-1-6">
        <div class="content">
 
-           <img src="img/process-1.png" alt="">
+           <img src="../img/process-1.png" alt="">
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
        </div>
     </div>
     <div class="col-1-6">
        <div class="content">
-           <img src="img/process-2.png" alt="">
+           <img src="../img/process-2.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
        </div>
     </div>
     <div class="col-1-6">
        <div class="content">
-           <img src="img/process-3.png" alt="">
+           <img src="../img/process-3.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
        </div>
     </div>
     <div class="col-1-6">
        <div class="content">
-           <img src="img/process-4.png" alt="">
+           <img src="../img/process-4.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
        </div>
     </div>
     <div class="col-1-6">
        <div class="content">
-           <img src="img/process-5.png" alt="">
+           <img src="../img/process-5.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
        </div>
     </div>
     <div class="col-1-6">
        <div class="content">
-           <img src="img/process-6.png" alt="">
+           <img src="../img/process-6.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
        </div>
     </div>
 </div>
 </section>
+<div class="longsep"></div>
 <section id="about">
 
     <div class="grid grid-pad">
@@ -199,20 +200,20 @@
         </div>
     </div>
 
-    <div class="longsep"></div>
 
     <div class="grid grid-pad">
         <div class="col-1-2">
            <div class="content">
-               <img alt="placeholder" src="img/about_image1.jpg">
+               <img class="aboutimg" alt="placeholder" width="61%" src="../img/about_image1.jpg">
            </div>
         </div>
         <div class="col-1-2">
-           <div class="content">
-            <h2><span class="object">01</span><span class="break">/</span>Raspberry Pi</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
+            <div class="f-text-left">
+            <h2><span class="object">01</span><span class="break">/</span>About Raspberry Pi</h2>
+            <h1 class="abouttitle">Book Appointment and lets roll</h1>
+               <p class="tell">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores.</p>
                <div class="smallsep f-left"></div>
-           </div>
+            </div>
         </div>
     </div>
 
@@ -220,20 +221,23 @@
 
       <div class="grid grid-pad">
         <div class="col-1-2">
-           <div class="content">
-            <h2><span class="object">02</span><span class="break">/</span>Raspberry Pi</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
+          <div class="f-text-right">          
+            <h2><span class="object">02</span><span class="break">/</span>Grant Full Support</h2>
+        
+            <h1 class="abouttitle">Book Appointment and lets roll</h1>
+               <p class="tell">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores.</p>
                <div class="smallsep f-right"></div>
-           </div>
+          </div>
         </div>
         <div class="col-1-2">
            <div class="content">
-               <img alt="placeholder" src="img/about_image2.jpg">
+               <img class="aboutimg" alt="placeholder" width="61%" src="../img/about_image2.jpg">
            </div>
         </div>
     </div>
 </section>
 
+<div class="longsep"></div>
 <section id="contact">
     <div class="grid grid-pad">
         <div class="col-1-1">
