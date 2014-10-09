@@ -1,4 +1,3 @@
-/* jshint devel:true */
 var Shop = function(element) {
     this.$element = $(element);
     this.init();
@@ -11,6 +10,11 @@ Shop.prototype.init = function() {
     // Products
     this.$addToCartBtns = this.$element.find('li.shop');
 
+    // Cart
+    this.$cart         = $('#shopping-cart');
+    this.$cartProducts = this.$cart.find('#cart-products');
+    this.$cartTotal    = this.$cart.find('#cart-total span');
+
     // if cart not in storage, init a new cart
     if(!sessionStorage.getItem(this.sessionKey)) {
         sessionStorage.setItem(this.sessionKey, JSON.stringify({
@@ -21,6 +25,7 @@ Shop.prototype.init = function() {
 
     // init
     this.addToCart();
+    this.updateCart();
 };
 
 /*
@@ -68,8 +73,54 @@ Shop.prototype.addToCart = function() {
                     
                     // update cart
                     sessionStorage.setItem(self.sessionKey, JSON.stringify(cart));
+                    self.updateCart();
                 }
             });
         }
     });
+};
+
+
+/*
+    Cart
+*/
+
+Shop.prototype.updateCart = function() {
+    if (this.$cartProducts.length) {
+        var self = this;
+        var cart = JSON.parse(sessionStorage.getItem(this.sessionKey));
+        var items = cart.items;
+
+        this.$cartProducts.empty();
+
+        for (var key in items) {
+            if (items.hasOwnProperty(key)) {
+                this.$cartProducts.append(
+                    '<div data-key="'+key+'"><p>Name: ' + key + '</p><p>Price: ' +
+                    items[key].price + '</p><p>Quantity: ' +
+                    items[key].qty + '</p><a href="#" class="remove-product">Remove</a></div>'
+                );
+            }
+        }
+
+        this.$cartTotal.text(cart.total);
+
+        this.$cartProducts.find('a.remove-product').on('click', function(e) {
+            e.preventDefault();
+
+            // get product key
+            var key = $(this).parent().data('key');
+
+            // update cart total
+            var productTotal = items[key].qty * items[key].price;
+            cart.total -= productTotal;
+
+            // remove product from cart
+            delete cart.items[key];
+
+            // update cart
+            sessionStorage.setItem(self.sessionKey, JSON.stringify(cart));
+            self.updateCart();
+        });
+    }
 };

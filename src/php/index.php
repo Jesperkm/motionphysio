@@ -47,7 +47,7 @@
                <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
-               <span class="price">$200.00</span>
+               <span class="price">200.00 kr</span>
                     <ul>
                       <li class="slide-in">
                         <div class="quantity-container quantity-container-two">
@@ -64,7 +64,7 @@
                       <img id="info-image" width="50%" alt="placeholder" src="img/motionphysio.jpg">
                         <h1>Raspberry Pi med SD kort </h1>
                           <p>Short description goes here</p>
-                            <span class="price">$200.00</span>
+                            <span class="price">200.00 kr</span>
                             
                             <div class="buy">
                               
@@ -87,7 +87,7 @@
                <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
-               <span class="price">$200.00</span>
+               <span class="price">200.00 kr</span>
                     <ul>
                       <li class="slide-in">
                         <div class="quantity-container quantity-container-two">
@@ -108,7 +108,7 @@
                <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
                <h3>Raspberry Pi med SD kort </h3>
                <h4>Antal Enheder 3</h4>
-               <span class="price">$200.00</span>
+               <span class="price">200.00 kr</span>
                     <ul>
                       <li class="slide-in">
                           <div class="quantity-container quantity-container-two">
@@ -133,7 +133,7 @@
            <img width="50%" height="50%" src="img/SD4.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
-           <span class="priceacc">$200.00</span>
+           <span class="priceacc">200.00 kr</span>
             <ul>
               <li class="slide-in-two">
                 <div class="quantity-container-three">
@@ -152,7 +152,7 @@
            <img width="50%" height="50%" src="img/SD8.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
-           <span class="priceacc">$200.00</span>
+           <span class="priceacc">200.00 kr</span>
             <ul>
               <li class="slide-in-two">
                 <div class="quantity-container-three">
@@ -171,7 +171,7 @@
            <img width="50%" height="50%" src="img/SD16.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
-           <span class="priceacc">$200.00</span>
+           <span class="priceacc">200.00 kr</span>
             <ul>
               <li class="slide-in-two">
                 <div class="quantity-container-three">
@@ -190,7 +190,7 @@
            <img width="50%" height="50%" src="img/SD32.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
-           <span class="priceacc">$200.00</span>
+           <span class="priceacc">200.00 kr</span>
             <ul>
               <li class="slide-in-two">
                 <div class="quantity-container-three">
@@ -209,7 +209,7 @@
            <img width="50%" height="50%" src="img/stromforsyning.jpg" alt="">
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
-           <span class="priceacc">$200.00</span>
+           <span class="priceacc">200.00 kr</span>
             <ul>
               <li class="slide-in-two">
                 <div class="quantity-container-three">
@@ -404,5 +404,55 @@
     </div>
   </div>
 </section>
+
+<div id="shopping-cart">
+  <h4>Cart</h4>
+  <div id="cart-products"></div>
+  <div id="cart-shipping">
+    <input type="text" placeholder="Dropdown: Country">
+    <input type="text" placeholder="Full Name">
+    <input type="text" placeholder="Street Address">
+    <input type="text" placeholder="City">
+    <input type="text" placeholder="Postal">
+    <input type="text" placeholder="E-mail Address">
+    <input type="text" placeholder="Phone Number">
+  </div>
+  <hr>
+  <div id="cart-total">Total: <span>0</span>,-</div>
+  <button id="cart-pay">Pay with PayPal</button>
+</div>
+
+<style>
+  /* Yes, you guys are very welcome to remove this and do your own styling! */
+  #shopping-cart {
+    width: 300px;
+    background: #fff;
+    margin: 75px 0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  #cart-shipping {
+    overflow: hidden;
+  }
+  hr {
+    height: 1px;
+    margin: 20px -20px;
+    border: none;
+    background-color: #aaa;
+  }
+  #cart-total {
+    text-align: center;
+  }
+  #cart-pay {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #009fee;
+    padding: 10px 12px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+</style>
 
 <?php require "footer.php"; ?>

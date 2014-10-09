@@ -21,7 +21,7 @@ $(function() {
     //Smooth Scroll.
     var $root = $('html, body');
 
-    $('a').click(function() {
+    $('nav li a').not('#open-cart').on('click', function() {
         var href = $.attr(this, 'href');
 
         $root.animate({
@@ -33,13 +33,6 @@ $(function() {
         return false;
     });
 
-
-    // slide effect on shoppingcart click
-    $('li.shop').on('click', function() {
-        //e.stopPropagation();
-        //$('.box ul').removeClass('selecting-quantity-one');
-        //$(this).parent().addClass('selecting-quantity-one');
-    });
 
     $('li.shop-two').on('click', function() {
         $('.content ul').removeClass('selecting-quantity-two');
@@ -90,6 +83,11 @@ $(function() {
     /* global Shop:true */
     // init shop
     var shop = new Shop('#products');
+
+    $('#open-cart').on('click', function(e) {
+        e.preventDefault();
+        $('#shopping-cart').bPopup();
+    });
 
     // navigation color switch on scroll
     var t = $('#home-text').offset().top;
