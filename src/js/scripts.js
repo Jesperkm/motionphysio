@@ -32,7 +32,6 @@ $(function() {
     
         return false;
     });
-<<<<<<< HEAD
     
     // google maps
     var map;
@@ -70,7 +69,6 @@ $(function() {
           map: map,
           icon: '../img/googlepointer.png',
           size: new google.maps.Size(10, 10)
-=======
 
 
     // slide effect on shoppingcart click
@@ -107,7 +105,6 @@ $(function() {
                 value = currentValue;
             }
             $(this).val(value);
->>>>>>> upstream/master
         });
 
         $minus.on('click', function() {
