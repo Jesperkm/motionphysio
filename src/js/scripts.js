@@ -97,23 +97,26 @@ $(document).scroll(function(){
 
 
 // products pop up on arrow click
-    ;(function($) {
-
-         // DOM Ready
-        $(function() {
-
-            // Binding a click event
-            // From jQuery v.1.7.0 use .on() instead of .bind()
-            $('.info').on('click', function(e) {
-
-                // Prevents the default action to be triggered. 
-                e.preventDefault();
-
-                // Triggering bPopup when click event is fired
-                $('.product-info').bPopup();
-
-            });
-
+;(function($) {
+    $(function() {
+        $('.info').on('click', function(e) {
+            e.preventDefault();
+            $('.product-info').bPopup();
         });
+    });
+})(jQuery);
 
-    })(jQuery);
+// slide effect on shoppingcart click
+$(function() {
+    $('li.shop').on('click', function(e) {
+        e.preventDefault();
+        $('.box ul').removeClass('selecting-quantity-one');
+        $(this).parent().addClass('selecting-quantity-one');
+    });
+
+    $('li.shop-two').on('click', function(e) {
+        e.preventDefault();
+        $('.box ul').removeClass('selecting-quantity-two');
+        $(this).parent().addClass('selecting-quantity-two');
+    });
+});

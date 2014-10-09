@@ -62,21 +62,24 @@ span.price {
 
 .content .box ul {
     margin-top:40px;
+    margin-left: -1px;
+    margin-right: -1px;
 }
 
 .content li {
     width:50%;
     float:left;
     height:60px;
+    overflow:hidden;
 }
 
 
-.content li.shop {
+.content li.shop, li.shop-two {
     background:#047dcf url("img/basket.png") center center no-repeat;
     transition: background 400ms ease-in-out;
 }
 
-.content li.shop:hover{
+.content li.shop:hover, li.shop-two:hover{
     background-color:#014E83;
     cursor:pointer;
 }
@@ -161,8 +164,8 @@ span.priceacc{
         width:155px;
         float:left;
 
-        #quantity-minus,
-        #quantity-plus {
+        .quantity-minus,
+        .quantity-plus {
             float: left;
             height: 100%;
             width:50px;
@@ -177,7 +180,7 @@ span.priceacc{
             background-size:12px 12px;
         }
 
-        #quantity {
+        .quantity {
             width: 55px;
             display: inline-block;
             border: 0;
@@ -186,7 +189,7 @@ span.priceacc{
             text-indent:0;
         }
 
-        #quantity-plus {
+        .quantity-plus {
             background-image:url(img/plus.png);
         }
     }
@@ -197,10 +200,149 @@ span.priceacc{
         background:#047dcf url("img/basket.png") center center no-repeat;
         transition: background 400ms ease-in-out;
         float:left;
+        z-index:999;
 
         &:hover{
             background-color:#014E83;
             cursor:pointer;
         }
+    }
+}
+
+li.slide-in, li.slide-in-two {
+    width:0;
+    -webkit-transition:width .8s;
+    transition:width .8s;
+}
+
+.content li.info {
+    -webkit-transition:width .8s;
+    transition:width .8s;
+}
+
+.selecting-quantity-one {
+    .quantity-container-two {
+        height:100%;
+        width:160px;
+        float:left;
+
+        .quantity-minus-two,
+        .quantity-plus-two {
+            float: left;
+            height: 100%;
+            width:50px;
+            padding: 0 10px;
+            background-color: $whiteblue;
+            line-height: 48px;
+            font-size: 20px;
+            cursor: pointer;
+            background-image:url(img/minus.png);
+            background-position:center center;
+            background-repeat:no-repeat;
+            background-size:12px 12px;
+        }
+
+        .quantity-two {
+            width: 60px;
+            display: inline-block;
+            border: 0;
+            height: 100%;
+            text-align: center;
+            text-indent:0;
+        }
+
+        .quantity-plus-two {
+            background-image:url(img/plus.png);
+        }
+    }
+
+    li.info {
+        border:none;        
+        width:0;
+    }
+
+    li.show {
+        width:160px;
+        display:block;
+    }
+
+    li.slide-in {
+        width: 50%;
+        -webkit-transition:width .8s;
+        transition:width .8s;
+        border:1px solid #dadada;
+    }
+}
+
+.selecting-quantity-two {
+    .quantity-container-three {
+        height:100%;
+        width:140px;
+        float:left;
+
+            .quantity-minus-three,
+            .quantity-plus-three {
+                float: left;
+                height: 100%;
+                width:40px;
+                padding: 0 10px;
+                background-color: $whiteblue;
+                line-height: 48px;
+                font-size: 20px;
+                cursor: pointer;
+                background-image:url(img/minus.png);
+                background-position:center center;
+                background-repeat:no-repeat;
+                background-size:12px 12px;
+            }
+
+            .quantity-three {
+                width: 60px;
+                display: inline-block;
+                border: 0;
+                height: 100%;
+                text-align: center;
+                text-indent:0;
+                border:1px solid #dadada;
+            }
+
+            .quantity-plus-three {
+                background-image:url(img/plus.png);
+            }
+    }
+
+    li.hide {
+        width:0;
+        border:none;
+    }
+
+    li.info.hide {
+        border:none;
+    }
+
+    li.show-two {
+        width:140px;
+        display:block;
+
+        &.slide-in-two {
+            border:1px solid #dadada;
+        }
+    }
+
+    li.shop-two.width-fix {
+        width:64px;
+    }
+
+    li.slide-in-two {
+        width:140px;
+    }
+
+    li.info {
+        border:none;        
+        width:0;
+    }
+
+    li.shop-two {
+        width:64px;
     }
 }
