@@ -1,4 +1,91 @@
 #about h1 {
-    text-align:center;
     font-size:30px;
+}
+
+#about .f-text-left, #about .f-text-left h1 {
+    text-align:left;
+}
+
+#about div.f-text-right, #about div.f-text-right h1{
+    text-align:right;
+}
+
+#about h1.abouttitle{
+    font-size:50px;
+    line-height:1.5;
+
+}
+
+
+#about p.tell{
+    margin-top:-20px;
+}
+
+@media screen and (max-width: 1100px) {
+img.aboutimg{
+    top: 61px;
+    position: relative;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #about .f-text-left{
+    text-align:left;
+    margin-left:30px;
+    margin-right:30px;
+    }
+     img.aboutimg{
+        top: 80px;
+        position: relative;
+        width:80%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #about h1.abouttitle{
+    font-size:30px;
+    line-height:1.5;
+    }
+
+    [class*='col-']{
+        width:50%;
+    }
+     img.aboutimg{
+        top: 10px;
+        position: relative;
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    [class*='col-'] {
+    width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    
+    #about h1.abouttitle{
+    font-size:30px;
+    line-height:1.5;
+    }
+
+    #about div.f-text-right, #about div.f-text-right h1{
+    text-align:left;
+    margin-left:20px;
+    }
+
+    .f-right {
+    float:left;
+}
+
+    img.aboutimg{
+        top: 10px;
+        position: relative;
+        width:80%;
+    }
+
 }

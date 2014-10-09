@@ -139,7 +139,6 @@
 
     <div class="grid grid-pad">
        <h2><span class="object">01</span><span class="break">/</span>The Process</h2>
-         <div class="longsep"></div>
     <div class="col-1-6">
        <div class="content">
 
@@ -200,11 +199,11 @@
     <div class="grid grid-pad">
         <div class="col-1-2">
            <div class="content">
-               <img alt="placeholder" src="img/about_image1.jpg">
+               <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image1.jpg" />
            </div>
         </div>
         <div class="col-1-2">
-           <div class="content">
+           <div class="f-text-left">
             <h2><span class="object">01</span><span class="break">/</span>Raspberry Pi</h2>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
                <div class="smallsep f-left"></div>
@@ -216,7 +215,7 @@
 
       <div class="grid grid-pad">
         <div class="col-1-2">
-           <div class="content">
+           <div class="f-text-right">
             <h2><span class="object">02</span><span class="break">/</span>Raspberry Pi</h2>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
                <div class="smallsep f-right"></div>
@@ -224,7 +223,7 @@
         </div>
         <div class="col-1-2">
            <div class="content">
-               <img alt="placeholder" src="img/about_image2.jpg">
+               <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image2.jpg">
            </div>
         </div>
     </div>
