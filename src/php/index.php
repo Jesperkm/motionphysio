@@ -51,7 +51,7 @@
                     <ul>
                       <li class="slide-in">
                         <div class="quantity-container-two">
-                          <div class="quantity-minus-two"></div>
+                          <div class="quantity-minus quantity-minus-two"></div>
                             <input type="text" class="quantity-two" value="1"></input>
                           <div class="quantity-plus-two"></div>
                         </div>
@@ -70,7 +70,7 @@
                               
                               <div class="quantity-container">
                                 <div class="quantity-minus"></div>
-                                <input type="text" class="quantity" value="1"></input>
+                                <input type="text" class="quantity-input" value="1"></input>
                                 <div class="quantity-plus"></div>
                               </div>
                               
@@ -90,10 +90,10 @@
                <span class="price">$200.00</span>
                     <ul>
                       <li class="slide-in">
-                        <div class="quantity-container-two">
-                          <div class="quantity-minus-two"></div>
-                            <input type="text" class="quantity-two" value="1"></input>
-                          <div class="quantity-plus-two"></div>
+                        <div class="quantity-container quantity-container-two">
+                          <div class="quantity-minus quantity-minus-two"></div>
+                            <input type="text" class="quantity-input quantity-two" value="1"></input>
+                          <div class="quantity-plus quantity-plus-two"></div>
                         </div>
                       </li>
                       <li class="shop"></li>
@@ -111,10 +111,10 @@
                <span class="price">$200.00</span>
                     <ul>
                       <li class="slide-in">
-                          <div class="quantity-container-two">
-                            <div class="quantity-minus-two"></div>
-                              <input type="text" class="quantity-two" value="1"></input>
-                            <div class="quantity-plus-two"></div>
+                          <div class="quantity-container quantity-container-two">
+                            <div class="quantity-minus quantity-minus-two"></div>
+                              <input type="text" class="quantity-input quantity-two" value="1"></input>
+                            <div class="quantity-plus quantity-plus-two"></div>
                           </div>
                       </li>
                       <li class="shop"></li>
