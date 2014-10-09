@@ -29,13 +29,18 @@ img.aboutimg{
 }
 
 @media screen and (max-width: 900px) {
+    #about h1.abouttitle{
+    font-size:30px;
+    line-height:1.5;
+    }
+
     #about .f-text-left{
     text-align:left;
     margin-left:30px;
     margin-right:30px;
     }
      img.aboutimg{
-        top: 80px;
+        top: 0px;
         position: relative;
         width:80%;
     }
@@ -43,27 +48,19 @@ img.aboutimg{
 
 
 @media screen and (max-width: 768px) {
-    #about h1.abouttitle{
-    font-size:30px;
-    line-height:1.5;
-    }
-
-    [class*='col-']{
-        width:50%;
-    }
      img.aboutimg{
         top: 10px;
         position: relative;
-        width:80%;
+        width:100%;
     }
 }
 
-@media screen and (max-width: 768px){
-
-    [class*='col-'] {
-    width: 100%;
+@media screen and (max-width: 710px) {
+     img.aboutimg{
+        top: 10px;
+        position: relative;
+        width:70%;
     }
-
 }
 
 @media screen and (max-width: 320px) {
@@ -85,7 +82,7 @@ img.aboutimg{
     img.aboutimg{
         top: 10px;
         position: relative;
-        width:80%;
+        width:70%;
     }
 
 }

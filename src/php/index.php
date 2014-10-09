@@ -10,7 +10,6 @@
 </section>
 
 <section id="short-desc">
-<<<<<<< HEAD
     <div class="grid grid-pad">
         <div class="col-1-2">
            <div class="content">
@@ -26,7 +25,6 @@
            </div>
         </div>
     </div>
-=======
 
   <div class="short-desc-one">
     <img alt="placeholder" src="img/firstbreak_image.jpg">
@@ -38,7 +36,6 @@
         <p class="a-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
           <div class="smallsep f-left"></div>
   </div>
->>>>>>> upstream/master
 </section>
 
 <section id="products">
@@ -242,19 +239,16 @@
        </div>
     </div>
 </section>
-<<<<<<< HEAD
 <div class="longsep"></div>
 <section id="secondbreak">
 
     <div class="grid grid-pad">
        <h2><span class="object">01</span><span class="break">/</span>The Process blueprint</h2>
-=======
 
 <section id="secondbreak">
 
     <div class="grid grid-pad">
        <h2><span class="object">01</span><span class="break">/</span>The Process</h2>
->>>>>>> upstream/master
     <div class="col-1-6">
        <div class="content">
 
@@ -293,11 +287,7 @@
        </div>
     </div>
 </section>
-<<<<<<< HEAD
 <div class="longsep"></div>
-=======
-
->>>>>>> upstream/master
 <section id="about">
 
     <div class="grid grid-pad">
@@ -318,7 +308,6 @@
     <div class="grid grid-pad">
         <div class="col-1-2">
            <div class="content">
-<<<<<<< HEAD
                <img class="aboutimg" alt="placeholder" width="61%" src="../img/about_image1.jpg">
            </div>
         </div>
@@ -327,7 +316,6 @@
             <h2><span class="object">01</span><span class="break">/</span>About Raspberry Pi</h2>
             <h1 class="abouttitle">Book Appointment and lets roll</h1>
                <p class="tell">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores.</p>
-=======
                <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image1.jpg" />
            </div>
         </div>
@@ -335,7 +323,6 @@
            <div class="f-text-left">
             <h2><span class="object">01</span><span class="break">/</span>Raspberry Pi</h2>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
->>>>>>> upstream/master
                <div class="smallsep f-left"></div>
             </div>
         </div>
@@ -345,27 +332,22 @@
 
       <div class="grid grid-pad">
         <div class="col-1-2">
-<<<<<<< HEAD
           <div class="f-text-right">          
             <h2><span class="object">02</span><span class="break">/</span>Grant Full Support</h2>
         
             <h1 class="abouttitle">Book Appointment and lets roll</h1>
                <p class="tell">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores.</p>
-=======
+
            <div class="f-text-right">
             <h2><span class="object">02</span><span class="break">/</span>Raspberry Pi</h2>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
->>>>>>> upstream/master
                <div class="smallsep f-right"></div>
           </div>
         </div>
         <div class="col-1-2">
            <div class="content">
-<<<<<<< HEAD
                <img class="aboutimg" alt="placeholder" width="61%" src="../img/about_image2.jpg">
-=======
                <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image2.jpg">
->>>>>>> upstream/master
            </div>
         </div>
     </div>

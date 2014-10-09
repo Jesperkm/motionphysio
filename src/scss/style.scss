@@ -3,71 +3,6 @@
 @import "plugins/reset";
 @import "plugins/grid";
 
-// Partials (folder: /partials)
-@import "partials/colors";
-@import "partials/prefixes";
-@import "partials/seperator";
-
-// Main CSS files
-@import "navigation";
-@import "home";
-@import "products";
-@import "secondbreak";
-@import "contact";
-@import "about";
-
-*,
-*:after,
-*:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-#undertekst{
-    position: relative;
-    top: 10px;
-    margin: 0 auto;
-    max-width: 650px;
-    margin-bottom: 50px;
-    margin-top: 15px;
-    text-align:center;
-    line-height:23px;
-}
-
-span.object {
-    font-size: 30px;
-    font-weight: 300;
-    color:$red;
-}
-
-span.break {
-    font-size: 80px;
-    font-weight: 100;
-    top: 18px;
-    position: relative;
-    font-family: serif;
-}
-
-.f-left {
-    float:left;
-}
-
-.f-right {
-    float:right;
-}
-
-#short-desc {
-    margin:50px 0 50px 0;
-}
-
-
-<<<<<<< HEAD
-// Plugins (folder: /plugins)
-@import "plugins/clearfix";
-@import "plugins/reset";
-@import "plugins/grid";
-
 
 
 // SCSS Modules (folder: /modules)
@@ -89,7 +24,6 @@ span.break {
 
 // Media Queries (folder: /media_queries)
 @import "media_queries/960";
-=======
 .f-left {
     float:left;
 }
@@ -143,4 +77,3 @@ span.break {
 @import "media_queries/685";
 @import "media_queries/500";
 @import "media_queries/320";
->>>>>>> upstream/master
