@@ -52,6 +52,25 @@
                       <li class="shop"></li>
                       <li class="info"></li>
                     </ul>
+
+                    <div class="product-info">
+                      <img id="info-image" width="50%" alt="placeholder" src="img/motionphysio.jpg">
+                        <h1>Raspberry Pi med SD kort </h1>
+                          <p>Short description goes here</p>
+                            <span class="price">$200.00</span>
+                            
+                            <div class="buy">
+                              
+                              <div class="quantity-container">
+                                <div id="quantity-minus"></div>
+                                <input type="text" id="quantity" value="1"></input>
+                                <div id="quantity-plus"></div>
+                              </div>
+                              
+                              <div class="shop"></div>
+                            </div>
+                    </div>
+
                </div>
            </div>
         </div>
@@ -94,7 +113,10 @@
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
-           <button>Add to basket</button>
+            <ul>
+              <li class="shop"></li>
+              <li class="info"></li>
+            </ul>
        </div>
     </div>
     <div class="col-1-5">
@@ -103,7 +125,10 @@
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
-           <button>Add to basket</button>
+            <ul>
+              <li class="shop"></li>
+              <li class="info"></li>
+            </ul>
        </div>
     </div>
     <div class="col-1-5">
@@ -112,7 +137,10 @@
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
-           <button>Add to basket</button>
+            <ul>
+              <li class="shop"></li>
+              <li class="info"></li>
+            </ul>
        </div>
     </div>
     <div class="col-1-5">
@@ -121,7 +149,10 @@
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
-           <button>Add to basket</button>
+            <ul>
+              <li class="shop"></li>
+              <li class="info"></li>
+            </ul>
        </div>
     </div>
     <div class="col-1-5">
@@ -130,7 +161,10 @@
            <h5>Raspberry Pi med SD kort </h5>
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
-           <button>Add to basket</button>
+            <ul>
+              <li class="shop"></li>
+              <li class="info"></li>
+            </ul>
        </div>
     </div>
 </section>
@@ -288,7 +322,7 @@
               <input type="text" name="email" id="email" />
           </fieldset>
       
-          <fieldset class="mg-none">
+          <fieldset>
               <label for="subject">Subject<span class="red"> *</label>
               <input type="text" name="subject" id="subject" />
           </fieldset>
@@ -303,7 +337,7 @@
               <input type="text" name="cellphone" id="cellphone" />
           </fieldset>
       
-          <fieldset class="mg-none">
+          <fieldset>
               <label for="city">City<span class="red"> *</label>
               <input type="text" name="city" id="city" />
           </fieldset>

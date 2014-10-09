@@ -56,10 +56,10 @@ fieldset {
     width:30%;
     margin-right:5%;
     margin-bottom:20px;
-}
 
-.mg-none {
-    margin-right:0;
+    &:nth-child(3), &:nth-child(6) {
+        margin-right:0;
+    }
 }
 
 .red {
@@ -83,6 +83,7 @@ textarea {
     text-indent:10px;
     border:1px solid $light-grey;
     margin-bottom:20px;
+    padding-top:10px;
 }
 
 #submit {
@@ -94,10 +95,10 @@ textarea {
     text-indent:0;
     background:$blue;
     border:none;
-    opacity:1;
-    transition:opacity 1s ease;
+    transition: background 400ms ease-in-out;
 
     &:hover {
-        opacity:0.6;
+        background-color:#014E83;
+        cursor:pointer;
     }
 }
