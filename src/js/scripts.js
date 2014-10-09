@@ -36,8 +36,9 @@ $(function() {
 
     // slide effect on shoppingcart click
     $('li.shop').on('click', function() {
-        $('.box ul').removeClass('selecting-quantity-one');
-        $(this).parent().addClass('selecting-quantity-one');
+        //e.stopPropagation();
+        //$('.box ul').removeClass('selecting-quantity-one');
+        //$(this).parent().addClass('selecting-quantity-one');
     });
 
     $('li.shop-two').on('click', function() {
@@ -84,6 +85,11 @@ $(function() {
             }
         });
     });
+
+    /* jshint unused:false */
+    /* global Shop:true */
+    // init shop
+    var shop = new Shop('#products');
 
     // navigation color switch on scroll
     var t = $('#home-text').offset().top;

@@ -113,6 +113,7 @@ module.exports = function(grunt) {
                     'bower_components/jquery/dist/jquery.js',
                     'bower_components/bpopup/jquery.bpopup.js',
 
+                    'src/js/shop.js',
                     'src/js/scripts.js'
                 ],
                 dest: 'build/scripts.js'

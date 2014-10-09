@@ -50,10 +50,10 @@
                <span class="price">$200.00</span>
                     <ul>
                       <li class="slide-in">
-                        <div class="quantity-container-two">
+                        <div class="quantity-container quantity-container-two">
                           <div class="quantity-minus quantity-minus-two"></div>
-                            <input type="text" class="quantity-two" value="1"></input>
-                          <div class="quantity-plus-two"></div>
+                            <input type="text" class="quantity-input quantity-two" value="1"></input>
+                          <div class="quantity-plus quantity-plus-two"></div>
                         </div>
                       </li>
                       <li class="shop"></li>
@@ -96,7 +96,7 @@
                           <div class="quantity-plus quantity-plus-two"></div>
                         </div>
                       </li>
-                      <li class="shop"></li>
+                      <li class="shop" data-name="raspi1" data-price="200.00"></li>
                       <li class="info"></li>
                     </ul>
                </div>
