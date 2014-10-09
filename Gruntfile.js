@@ -111,6 +111,7 @@ module.exports = function(grunt) {
                 },
                 src: [
                     'bower_components/jquery/dist/jquery.js',
+                    'bower_components/bpopup/jquery.bpopup.js',
 
                     'src/js/scripts.js'
                 ],
@@ -152,6 +153,13 @@ module.exports = function(grunt) {
             php: {
                 files: ['src/php/**/*.php'],
                 tasks: ['copy:php'],
+                options: {
+                    livereload: true
+                }
+            },
+            images: {
+                files: ['src/img/**/*'],
+                tasks: ['copy:images'],
                 options: {
                     livereload: true
                 }

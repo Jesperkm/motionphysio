@@ -1,3 +1,21 @@
+// Plugins (folder: /plugins)
+@import "plugins/clearfix";
+@import "plugins/reset";
+@import "plugins/grid";
+
+// Partials (folder: /partials)
+@import "partials/colors";
+@import "partials/prefixes";
+@import "partials/seperator";
+
+// Main CSS files
+@import "navigation";
+@import "home";
+@import "products";
+@import "secondbreak";
+@import "contact";
+@import "about";
+
 *,
 *:after,
 *:before {
@@ -20,6 +38,7 @@
 span.object {
     font-size: 30px;
     font-weight: 300;
+    color:$red;
 }
 
 span.break {
@@ -43,6 +62,7 @@ span.break {
 }
 
 
+<<<<<<< HEAD
 // Plugins (folder: /plugins)
 @import "plugins/clearfix";
 @import "plugins/reset";
@@ -69,3 +89,58 @@ span.break {
 
 // Media Queries (folder: /media_queries)
 @import "media_queries/960";
+=======
+.f-left {
+    float:left;
+}
+
+.f-right {
+    float:right;
+}
+
+.a-left {
+    text-align:left !important;
+}
+
+#short-desc {
+    margin:50px 0 50px 0;
+    width:100%;
+}
+
+.short-desc-one {
+    float:left;
+    width:50%;
+    padding-left:5%;
+
+    img {
+        display:block;
+        margin:0 auto;
+    }
+}
+
+.short-desc-two {
+    float:left;
+    width:50%;
+    padding-right:5%;
+
+    h1, h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin: 10px 0 20px 0;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+}
+
+// Media Queries (folder: /media_queries)
+@import "media_queries/960";
+@import "media_queries/800";
+@import "media_queries/768";
+@import "media_queries/685";
+@import "media_queries/500";
+@import "media_queries/320";
+>>>>>>> upstream/master

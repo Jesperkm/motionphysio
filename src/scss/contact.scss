@@ -1,28 +1,104 @@
+#map_canvas {
+    width:100%;
+    height:300px;
+}
+
+#contact-wrap {
+    margin-top:50px;
+}
+
+#contact-details {
+    float:left;
+    width:30%;
+    padding-left:5%;
+
+    h1 {
+        font-size:30px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom:30px;
+    }
+
+    .contact-p {
+        line-height:23px;
+    }
+}
+
+.span-details {
+    margin:20px 0 20px 0;
+    height:75px;
+
+    span {
+        float:left;
+        height:100%;
+        font-size:12px;
+        line-height:18px;
+    }
+
+    p {
+        float: left;
+        width: 70%;
+        font-size: 10px;
+        margin-left: 50px;
+        line-height:18px
+    }
+}
+
+#contact-form {
+    float:left;
+    width:70%;
+    padding-right:5%;
+}
+
+fieldset {
+    float:left;
+    width:30%;
+    margin-right:5%;
+    margin-bottom:20px;
+
+    &:nth-child(3), &:nth-child(6) {
+        margin-right:0;
+    }
+}
+
+.red {
+    color:$red;
+}
+
 input {
     width:100%;
+    float:left;
     height:40px;
     text-indent:10px;
     box-sizing: border-box;
+    border:1px solid $light-grey;
 }
 
 textarea {
     width:100%;
-    height:150px;
+    height:180px;
     max-width:100%;
     box-sizing: border-box;
     text-indent:10px;
+    border:1px solid $light-grey;
+    margin-bottom:20px;
+    padding-top:10px;
 }
 
 #submit {
     height:50px;
-    width:30%;
+    width:100%;
     background:white;
     margin-bottom:100px;
-    color:black;
+    color:$white;
     text-indent:0;
-}
+    background:$blue;
+    border:none;
+    transition: background 400ms ease-in-out;
 
-#map_canvas {
-    width:100%;
-    height:300px;
+    &:hover {
+        background-color:#014E83;
+        cursor:pointer;
+    }
 }
