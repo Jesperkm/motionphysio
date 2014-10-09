@@ -49,6 +49,13 @@
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
                     <ul>
+                      <li class="slide-in">
+                        <div class="quantity-container-two">
+                          <div class="quantity-minus-two"></div>
+                            <input type="text" class="quantity-two" value="1"></input>
+                          <div class="quantity-plus-two"></div>
+                        </div>
+                      </li>
                       <li class="shop"></li>
                       <li class="info"></li>
                     </ul>
@@ -62,9 +69,9 @@
                             <div class="buy">
                               
                               <div class="quantity-container">
-                                <div id="quantity-minus"></div>
-                                <input type="text" id="quantity" value="1"></input>
-                                <div id="quantity-plus"></div>
+                                <div class="quantity-minus"></div>
+                                <input type="text" class="quantity" value="1"></input>
+                                <div class="quantity-plus"></div>
                               </div>
                               
                               <div class="shop"></div>
@@ -82,6 +89,13 @@
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
                     <ul>
+                      <li class="slide-in">
+                        <div class="quantity-container-two">
+                          <div class="quantity-minus-two"></div>
+                            <input type="text" class="quantity-two" value="1"></input>
+                          <div class="quantity-plus-two"></div>
+                        </div>
+                      </li>
                       <li class="shop"></li>
                       <li class="info"></li>
                     </ul>
@@ -96,6 +110,13 @@
                <h4>Antal Enheder 3</h4>
                <span class="price">$200.00</span>
                     <ul>
+                      <li class="slide-in">
+                          <div class="quantity-container-two">
+                            <div class="quantity-minus-two"></div>
+                              <input type="text" class="quantity-two" value="1"></input>
+                            <div class="quantity-plus-two"></div>
+                          </div>
+                      </li>
                       <li class="shop"></li>
                       <li class="info"></li>
                     </ul>
@@ -114,7 +135,14 @@
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
             <ul>
-              <li class="shop"></li>
+              <li class="slide-in-two">
+                <div class="quantity-container-three">
+                  <div class="quantity-minus-three"></div>
+                    <input type="text" class="quantity-three" value="1"></input>
+                  <div class="quantity-plus-three"></div>
+                </div>
+              </li>
+              <li class="shop-two"></li>
               <li class="info"></li>
             </ul>
        </div>
@@ -126,7 +154,14 @@
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
             <ul>
-              <li class="shop"></li>
+              <li class="slide-in-two">
+                <div class="quantity-container-three">
+                  <div class="quantity-minus-three"></div>
+                    <input type="text" class="quantity-three" value="1"></input>
+                  <div class="quantity-plus-three"></div>
+                </div>
+              </li>
+              <li class="shop-two"></li>
               <li class="info"></li>
             </ul>
        </div>
@@ -138,7 +173,14 @@
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
             <ul>
-              <li class="shop"></li>
+              <li class="slide-in-two">
+                <div class="quantity-container-three">
+                  <div class="quantity-minus-three"></div>
+                    <input type="text" class="quantity-three" value="1"></input>
+                  <div class="quantity-plus-three"></div>
+                </div>
+              </li>              
+              <li class="shop-two"></li>
               <li class="info"></li>
             </ul>
        </div>
@@ -150,7 +192,14 @@
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
             <ul>
-              <li class="shop"></li>
+              <li class="slide-in-two">
+                <div class="quantity-container-three">
+                  <div class="quantity-minus-three"></div>
+                    <input type="text" class="quantity-three" value="1"></input>
+                  <div class="quantity-plus-three"></div>
+                </div>
+              </li>
+              <li class="shop-two"></li>
               <li class="info"></li>
             </ul>
        </div>
@@ -162,7 +211,14 @@
            <h6>antal enheder: 1</h6>
            <span class="priceacc">$200.00</span>
             <ul>
-              <li class="shop"></li>
+              <li class="slide-in-two">
+                <div class="quantity-container-three">
+                  <div class="quantity-minus-three"></div>
+                    <input type="text" class="quantity-three" value="1"></input>
+                  <div class="quantity-plus-three"></div>
+                </div>
+              </li>              
+              <li class="shop-two"></li>
               <li class="info"></li>
             </ul>
        </div>
