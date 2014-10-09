@@ -56,28 +56,32 @@ span.price {
     text-transform: uppercase;
 }
 
+.content ul {
+    margin-top:25px;
+}
+
 .content .box ul {
     margin-top:40px;
 }
 
-.content .box li {
+.content li {
     width:50%;
     float:left;
     height:60px;
 }
 
 
-.content .box li.shop {
+.content li.shop {
     background:#047dcf url("img/basket.png") center center no-repeat;
     transition: background 400ms ease-in-out;
 }
 
-.content .box li.shop:hover{
+.content li.shop:hover{
     background-color:#014E83;
     cursor:pointer;
 }
 
-.content .box li.info {
+.content li.info {
     background: url("img/info.png") center center no-repeat;
     border:1px solid #dadada;
     cursor:pointer;
@@ -117,21 +121,86 @@ span.priceacc{
 }
 
 
-@media screen and (max-width: 768px) {
-    
-    #undertekst{
-    width: 90%;
+.product-info {
+    display:none;
+    width:50%;
+    margin-top:60px;
+    background-color:$white;
+    z-index:9999;
+    position:absolute;
+    text-align:center;
+    padding:10px;
+
+    h1 {
+        font-size:25px;
+        margin-bottom:20px;
     }
 
-    .content button{
-    margin-bottom:0px;
+    p {
+        margin-bottom:20px;
+        padding:0 5px 0 5px;
     }
-}
 
+    img {
+        display:block;
+        margin:0 auto;
+    }
 
-@media screen and (max-width: 320px) {
-    
-    #undertekst{
-    width: 90%;
+    .buy {
+        width:312px;
+        box-sizing:border-box;
+        height:50px;
+        margin:0 auto;
+        margin-top:20px;
+        border:1px solid $light-grey;
+        margin-bottom:20px;
+    }
+
+    .quantity-container {
+        height:100%;
+        width:155px;
+        float:left;
+
+        #quantity-minus,
+        #quantity-plus {
+            float: left;
+            height: 100%;
+            width:50px;
+            padding: 0 10px;
+            background-color: $whiteblue;
+            line-height: 48px;
+            font-size: 20px;
+            cursor: pointer;
+            background-image:url(img/minus.png);
+            background-position:center center;
+            background-repeat:no-repeat;
+            background-size:12px 12px;
+        }
+
+        #quantity {
+            width: 55px;
+            display: inline-block;
+            border: 0;
+            height: 100%;
+            text-align: center;
+            text-indent:0;
+        }
+
+        #quantity-plus {
+            background-image:url(img/plus.png);
+        }
+    }
+
+    .shop {
+        width:155px;
+        height:100%;
+        background:#047dcf url("img/basket.png") center center no-repeat;
+        transition: background 400ms ease-in-out;
+        float:left;
+
+        &:hover{
+            background-color:#014E83;
+            cursor:pointer;
+        }
     }
 }
