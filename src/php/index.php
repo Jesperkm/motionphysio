@@ -96,7 +96,7 @@
                           <div class="quantity-plus quantity-plus-two"></div>
                         </div>
                       </li>
-                      <li class="shop" data-name="raspi1" data-price="200.00"></li>
+                      <li class="shop" data-name="raspi1" data-price="1.00"></li>
                       <li class="info"></li>
                     </ul>
                </div>
@@ -406,20 +406,27 @@
 </section>
 
 <div id="shopping-cart">
-  <h4>Cart</h4>
-  <div id="cart-products"></div>
-  <div id="cart-shipping">
-    <input type="text" placeholder="Dropdown: Country">
-    <input type="text" placeholder="Full Name">
-    <input type="text" placeholder="Street Address">
-    <input type="text" placeholder="City">
-    <input type="text" placeholder="Postal">
-    <input type="text" placeholder="E-mail Address">
-    <input type="text" placeholder="Phone Number">
-  </div>
-  <hr>
-  <div id="cart-total">Total: <span>0</span>,-</div>
-  <button id="cart-pay">Pay with PayPal</button>
+    <h4>Cart</h4>
+    <div id="cart-products"></div>
+    <div id="cart-shipping">
+        <input type="text" data-type="text" placeholder="Dropdown: Country">
+        <input type="text" data-type="text" placeholder="Full Name">
+        <input type="text" data-type="text" placeholder="Street Address">
+        <input type="text" data-type="text" placeholder="City">
+        <input type="text" data-type="text" placeholder="Postal">
+        <input type="text" data-type="email" placeholder="E-mail Address">
+        <input type="text" data-type="phone" placeholder="Phone Number">
+    </div>
+    <hr>
+    <div id="cart-total">Total: <span>0</span>,-</div>
+    <form id="paypal-form" action="" method="post">
+        <input type="hidden" name="cmd" value="_cart" />
+        <input type="hidden" name="upload" value="1" />
+        <input type="hidden" name="business" value="" />
+        <input type="hidden" name="currency_code" value="" />
+
+        <input type="submit" id="cart-pay" value="Pay with PayPal" />
+    </form>
 </div>
 
 <style>
@@ -452,6 +459,7 @@
     color: #fff;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
   }
 </style>
 
