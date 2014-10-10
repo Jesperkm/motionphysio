@@ -347,7 +347,6 @@
         <div class="col-1-2">
            <div class="content">
                <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image2.jpg">
-               <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image2.jpg">
            </div>
         </div>
     </div>

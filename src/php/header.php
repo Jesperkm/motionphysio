@@ -11,7 +11,7 @@
 <body>
 
 <header>
-    <div id="logo"><img src="../img/logo.png" alt="logo" /></div>
+    <div id="logo"><img src="img/logo.png" alt="logo" /></div>
     <nav>
         <ul class="clearfix">
             <li><a href="#home">Home</a></li>
