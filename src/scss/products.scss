@@ -92,7 +92,7 @@ span.price {
 }   
 
 
-.content button{
+.content button {
     border: 1px solid #000;
     background: none;
     height: 50px;
@@ -142,6 +142,8 @@ span.priceacc{
     #undertekst{
     width: 90%;
     }
+}
+
 .product-info {
     display:none;
     width:50%;
@@ -291,42 +293,44 @@ li.slide-in, li.slide-in-two {
         border:1px solid #dadada;
     }
 }
+
 .selecting-quantity-two {
     .quantity-container-three {
         height:100%;
         width:140px;
         float:left;
 
-            .quantity-minus-three,
-            .quantity-plus-three {
-                float: left;
-                height: 100%;
-                width:40px;
-                padding: 0 10px;
-                background-color: $whiteblue;
-                line-height: 48px;
-                font-size: 20px;
-                cursor: pointer;
-                background-image:url(img/minus.png);
-                background-position:center center;
-                background-repeat:no-repeat;
-                background-size:12px 12px;
-            }
+        .quantity-minus-three,
+        .quantity-plus-three {
+            float: left;
+            height: 100%;
+            width:40px;
+            padding: 0 10px;
+            background-color: $whiteblue;
+            line-height: 48px;
+            font-size: 20px;
+            cursor: pointer;
+            background-image:url(img/minus.png);
+            background-position:center center;
+            background-repeat:no-repeat;
+            background-size:12px 12px;
+        }
 
-            .quantity-three {
-                width: 60px;
-                display: inline-block;
-                border: 0;
-                height: 100%;
-                text-align: center;
-                text-indent:0;
-                border:1px solid #dadada;
-            }
+        .quantity-three {
+            width: 60px;
+            display: inline-block;
+            border: 0;
+            height: 100%;
+            text-align: center;
+            text-indent:0;
+            border:1px solid #dadada;
+        }
 
-            .quantity-plus-three {
-                background-image:url(img/plus.png);
-            }
-}
+        .quantity-plus-three {
+            background-image:url(img/plus.png);
+        }
+    }
+
     li.hide {
         width:0;
         border:none;
