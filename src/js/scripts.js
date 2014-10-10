@@ -32,7 +32,7 @@ $(function() {
     
         return false;
     });
-
+    
 
     $('li.shop-two').on('click', function() {
         $('.content ul').removeClass('selecting-quantity-two');

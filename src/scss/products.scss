@@ -2,6 +2,7 @@
     background: #fff;
     padding-top: 40px;
     text-align:center;
+    padding-right: 40px;
 }
 
 #image {
@@ -124,6 +125,23 @@ span.priceacc{
 }
 
 
+@media screen and (max-width: 768px) {
+    
+    #undertekst{
+    width: 90%;
+    }
+
+    .content button{
+    margin-bottom:0px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    #undertekst{
+    width: 90%;
+    }
 .product-info {
     display:none;
     width:50%;
@@ -273,7 +291,6 @@ li.slide-in, li.slide-in-two {
         border:1px solid #dadada;
     }
 }
-
 .selecting-quantity-two {
     .quantity-container-three {
         height:100%;
@@ -309,8 +326,7 @@ li.slide-in, li.slide-in-two {
             .quantity-plus-three {
                 background-image:url(img/plus.png);
             }
-    }
-
+}
     li.hide {
         width:0;
         border:none;

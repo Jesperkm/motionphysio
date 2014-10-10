@@ -3,12 +3,18 @@
 @import "plugins/reset";
 @import "plugins/grid";
 
+
+
+// SCSS Modules (folder: /modules)
+
+
 // Partials (folder: /partials)
 @import "partials/colors";
 @import "partials/prefixes";
 @import "partials/seperator";
 
 // Main CSS files
+//@import "style";
 @import "navigation";
 @import "home";
 @import "products";
@@ -16,6 +22,8 @@
 @import "contact";
 @import "about";
 
+// Media Queries (folder: /media_queries)
+@import "media_queries/960";
 *,
 *:after,
 *:before {
@@ -41,14 +49,13 @@ span.object {
     color:$red;
 }
 
-span.break {
+-span.break {
     font-size: 80px;
     font-weight: 100;
     top: 18px;
     position: relative;
     font-family: serif;
-}
-
+-}
 
 .f-left {
     float:left;
