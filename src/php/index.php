@@ -26,7 +26,7 @@
         </div>
     </div>
 
-  <div class="short-desc-one">
+  <!-- <div class="short-desc-one">
     <img alt="placeholder" src="img/firstbreak_image.jpg">
   </div>
 
@@ -35,7 +35,7 @@
       <h1 class="a-left">SHARING OUR EXPERTISE & KNOWLEDGE</h1>
         <p class="a-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
           <div class="smallsep f-left"></div>
-  </div>
+  </div> -->
 </section>
 
 <section id="products">
@@ -239,16 +239,17 @@
        </div>
     </div>
 </section>
-<div class="longsep"></div>
-<section id="secondbreak">
 
+<div class="longsep"></div>
+
+<section id="secondbreak">
     <div class="grid grid-pad">
        <h2><span class="object">01</span><span class="break">/</span>The Process blueprint</h2>
 
-<section id="secondbreak">
+<!-- <section id="secondbreak">
 
     <div class="grid grid-pad">
-       <h2><span class="object">01</span><span class="break">/</span>The Process</h2>
+       <h2><span class="object">01</span><span class="break">/</span>The Process</h2> -->
     <div class="col-1-6">
        <div class="content">
 
@@ -287,9 +288,10 @@
        </div>
     </div>
 </section>
-<div class="longsep"></div>
-<section id="about">
 
+<div class="longsep"></div>
+
+<section id="about">
     <div class="grid grid-pad">
         <div class="col-1-1">
           <div class="content">
@@ -304,7 +306,6 @@
         </div>
     </div>
 
-
     <div class="grid grid-pad">
         <div class="col-1-2">
            <div class="content">
@@ -316,14 +317,14 @@
             <h2><span class="object">01</span><span class="break">/</span>About Raspberry Pi</h2>
             <h1 class="abouttitle">Book Appointment and lets roll</h1>
                <p class="tell">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores.</p>
-               <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image1.jpg" />
+              <!--  <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image1.jpg" />
            </div>
         </div>
         <div class="col-1-2">
            <div class="f-text-left">
             <h2><span class="object">01</span><span class="break">/</span>Raspberry Pi</h2>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
-               <div class="smallsep f-left"></div>
+               <div class="smallsep f-left"></div> -->
             </div>
         </div>
     </div>
@@ -338,10 +339,10 @@
             <h1 class="abouttitle">Book Appointment and lets roll</h1>
                <p class="tell">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores.</p>
 
-           <div class="f-text-right">
+           <!-- <div class="f-text-right">
             <h2><span class="object">02</span><span class="break">/</span>Raspberry Pi</h2>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
-               <div class="smallsep f-right"></div>
+               <div class="smallsep f-right"></div> -->
           </div>
         </div>
         <div class="col-1-2">
@@ -353,6 +354,7 @@
 </section>
 
 <div class="longsep"></div>
+
 <section id="contact">
   <div class="grid grid-pad">
       <div class="col-1-1">
@@ -471,6 +473,7 @@
     margin: 75px 0;
     padding: 20px;
     border-radius: 5px;
+    display: none;
   }
   #cart-shipping {
     overflow: hidden;
