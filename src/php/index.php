@@ -460,6 +460,12 @@
         <input type="hidden" name="upload" value="1" />
         <input type="hidden" name="business" value="" />
         <input type="hidden" name="currency_code" value="" />
+        <input type="hidden" name="cpp_logo_image" value="img/logo.png" />
+        <input type="hidden" name="no_note" value="1" />
+        <input type="hidden" name="no_shipping" value="1" />
+        <input type="hidden" name="return" value="" />
+        <input type="hidden" name="rm" value="2" />
+        <input type="hidden" name="cancel_return" value="" />
 
         <input type="submit" id="cart-pay" value="Pay with PayPal" />
     </form>

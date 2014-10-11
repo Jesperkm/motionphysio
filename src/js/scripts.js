@@ -1,9 +1,8 @@
 //Navigation Script
 $(function() {
-    var pull = $('#pull');
     var menu = $('nav ul');
 
-    $(pull).on('click', function(e) {
+    $('#pull').on('click', function(e) {
         e.preventDefault();
         menu.slideToggle();
     });
@@ -21,8 +20,19 @@ $(function() {
     //Smooth Scroll.
     var $root = $('html, body');
 
+    $('#scroll').on('click', function(e) {
+        e.preventDefault();
+        var href = $(this).find('a').attr('href');
+
+        $root.animate({
+            scrollTop: $(href).offset().top - 50
+        }, 800, function () {
+            window.location.hash = href;
+        });
+    });
+
     $('nav li a').not('#open-cart').on('click', function() {
-        var href = $.attr(this, 'href');
+        var href = $(this).attr('href');
 
         $root.animate({
             scrollTop: $(href).offset().top - 50

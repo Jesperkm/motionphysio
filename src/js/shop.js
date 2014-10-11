@@ -22,12 +22,13 @@ Shop.prototype.init = function() {
     this.paypalUrl      = 'https://www.sandbox.paypal.com/cgi-bin/webscr';
     this.paypalBusiness = 'isenhard-facilitator@gmail.com';
     this.paypalCurrency = 'DKK';
+    this.paypalReturn   = 'http://localhost:3005#thanks';
+    this.paypalCancel   = 'http://localhost:3005#cancel';
 
     // if cart not in storage, init a new cart
     if(!sessionStorage.getItem(this.sessionKey)) {
         sessionStorage.setItem(this.sessionKey, JSON.stringify({
-            items: {},
-            total: 0
+            items: {}
         }));
     }
 
@@ -61,9 +62,6 @@ Shop.prototype.addToCart = function() {
                 else {
                     // get quantity
                     var qty = parseInt($this.parent().find('.quantity-input').val());
-                    
-                    // get total price for item(s)
-                    var subTotal = qty * price;
 
                     // get cart as json
                     var cart = JSON.parse(sessionStorage.getItem(self.sessionKey));
@@ -76,9 +74,6 @@ Shop.prototype.addToCart = function() {
                     items[name].qty += qty;
 
                     cart.items = items;
-
-                    // update total price
-                    cart.total = parseFloat(cart.total) + subTotal;
                     
                     // update cart
                     sessionStorage.setItem(self.sessionKey, JSON.stringify(cart));
@@ -128,10 +123,6 @@ Shop.prototype.updateCart = function() {
             // get product key
             var key = $(this).parent().data('key');
 
-            // update cart total
-            var productTotal = items[key].qty * items[key].price;
-            cart.total -= productTotal;
-
             // remove product from cart
             delete cart.items[key];
 
@@ -149,6 +140,8 @@ Shop.prototype.updateCart = function() {
         $form.attr('action', this.paypalUrl);
         $form.find('input[name="business"]').val(this.paypalBusiness);
         $form.find('input[name="currency_code"]').val(this.paypalCurrency);
+        $form.find('input[name="return"]').val(this.paypalReturn);
+        $form.find('input[name="cancel_return"]').val(this.paypalCancel);
         
         var i = 0;
         for (var iKey in items) {
