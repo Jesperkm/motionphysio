@@ -49,6 +49,11 @@ $(function() {
         $(this).parent().addClass('selecting-quantity-two');
     });
 
+     $('li.shop').on('click', function() {
+        $('.content ul').removeClass('selecting-quantity-one');
+        $(this).parent().addClass('selecting-quantity-one');
+    });
+
 
     // products pop up on arrow click
     $('.info').on('click', function(e) {
