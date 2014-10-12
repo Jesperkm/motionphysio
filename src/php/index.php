@@ -9,24 +9,9 @@
     <div id="scroll"><a href="#short-desc"><img src="img/scroll.png" alt="scroll" /></a></div>
 </section>
 
-<section id="short-desc">
-    <div class="grid grid-pad">
-        <div class="col-1-2">
-           <div class="content">
-               <img alt="placeholder" src="img/firstbreak_image.jpg">
-           </div>
-        </div>
-        <div class="col-1-2">
-           <div class="content f-left">
-            <h2><span class="object">01</span><span class="break">/</span>WHAT IS MOTION PHYSIO</h2>
-            <h1>SHARING OUR EXPERTISE & KNOWLEDGE</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
-               <div class="smallsep f-left"></div>
-           </div>
-        </div>
-    </div>
+<section id="short-desc" class="clearfix">
 
-  <!-- <div class="short-desc-one">
+  <div class="short-desc-one">
     <img alt="placeholder" src="img/firstbreak_image.jpg">
   </div>
 
@@ -35,8 +20,10 @@
       <h1 class="a-left">SHARING OUR EXPERTISE & KNOWLEDGE</h1>
         <p class="a-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque.</p>
           <div class="smallsep f-left"></div>
-  </div> -->
+  </div>
 </section>
+
+<div class="longsep"></div>
 
 <section id="products">
     <div class="grid grid-pad">
@@ -246,7 +233,7 @@
     <div class="grid grid-pad">
        <h2><span class="object">01</span><span class="break">/</span>The Process blueprint</h2>
 
-<!-- <section id="secondbreak">
+  <!-- <section id="secondbreak">
 
     <div class="grid grid-pad">
        <h2><span class="object">01</span><span class="break">/</span>The Process</h2> -->
@@ -470,40 +457,5 @@
         <input type="submit" id="cart-pay" value="Pay with PayPal" />
     </form>
 </div>
-
-<style>
-  /* Yes, you guys are very welcome to remove this and do your own styling! */
-  #shopping-cart {
-    width: 300px;
-    background: #fff;
-    margin: 75px 0;
-    padding: 20px;
-    border-radius: 5px;
-    display: none;
-  }
-  #cart-shipping {
-    overflow: hidden;
-  }
-  hr {
-    height: 1px;
-    margin: 20px -20px;
-    border: none;
-    background-color: #aaa;
-  }
-  #cart-total {
-    text-align: center;
-  }
-  #cart-pay {
-    width: 100%;
-    height: 40px;
-    margin-top: 20px;
-    background-color: #009fee;
-    padding: 10px 12px;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-</style>
 
 <?php require "footer.php"; ?>

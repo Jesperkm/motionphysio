@@ -200,7 +200,7 @@ span.priceacc{
             background-size:12px 12px;
         }
 
-        .quantity {
+        .quantity-input {
             width: 55px;
             display: inline-block;
             border: 0;
@@ -341,7 +341,7 @@ li.slide-in, li.slide-in-two {
     }
 
     li.show-two {
-        width:140px;
+        width:134px;
         display:block;
 
         &.slide-in-two {
@@ -354,7 +354,7 @@ li.slide-in, li.slide-in-two {
     }
 
     li.slide-in-two {
-        width:140px;
+        width:134px;
     }
 
     li.info {
@@ -363,6 +363,6 @@ li.slide-in, li.slide-in-two {
     }
 
     li.shop-two {
-        width:64px;
+        width:50px;
     }
 }

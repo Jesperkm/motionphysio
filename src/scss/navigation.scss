@@ -71,11 +71,12 @@ header {
             font-weight:bold;
             text-align: center;
             background-color: rgba(56, 56, 56, 0);
-            transition: color .3s ease;
-            -webkit-transition: color .3s ease;
+            opacity:1;
+            transition: opacity .3s ease;
+            -webkit-transition: opacity .3s ease;
 
             &:hover {
-                color:#000;
+                opacity:0.5;
             }
         }
         }
