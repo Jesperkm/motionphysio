@@ -73,6 +73,7 @@ input {
     text-indent:10px;
     box-sizing: border-box;
     border:1px solid $light-grey;
+    font-family:inherit;
 }
 
 textarea {
@@ -84,6 +85,7 @@ textarea {
     border:1px solid $light-grey;
     margin-bottom:20px;
     padding-top:10px;
+    font-family:inherit;
 }
 
 #submit {
@@ -96,6 +98,9 @@ textarea {
     background:$blue;
     border:none;
     transition: background 400ms ease-in-out;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
 
     &:hover {
         background-color:#014E83;
