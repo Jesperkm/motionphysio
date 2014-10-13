@@ -7,7 +7,11 @@
             font-size:2.5em;
         }
         p {
-            text-align:center;
+            display:none;
+        }
+
+        .breaker {
+            display:none;
         }
     }
 
@@ -53,6 +57,16 @@
         .quantity-minus,
         .quantity-plus {
             float: none;
+        }
+    }
+
+    .content {
+        padding-top:0;
+    }
+
+    .short-desc-one {
+        img {
+            width:80%;
         }
     }
 }
