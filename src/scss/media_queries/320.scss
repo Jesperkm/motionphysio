@@ -23,3 +23,22 @@
         padding-right:0px;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+
+    #about p.tell{
+        margin-top:-20px;
+        margin-bottom: 0px;
+    }
+
+    #short-desc {
+        padding:0px;
+    }
+
+    #secondbreak {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}

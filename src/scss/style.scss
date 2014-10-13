@@ -43,18 +43,30 @@
     line-height:23px;
 }
 
+.overskrift{
+    margin-top: 40px;
+}
+
+.center{
+    margin: 0 auto;
+    position: relative;
+    width: 320px;
+}
+
 span.object {
     font-size: 30px;
     font-weight: 300;
     color:$red;
+    float:left;
 }
 
 span.break {
     font-size: 80px;
     font-weight: 100;
-    top: 18px;
+    bottom: 23px;
     position: relative;
     font-family: serif;
+    float:left;
 }
 
 .f-left {
@@ -62,6 +74,14 @@ span.break {
 }
 
 .f-right {
+    float:right;
+}
+
+span.f-left {
+    float:left;
+}
+
+span.f-right {
     float:right;
 }
 
