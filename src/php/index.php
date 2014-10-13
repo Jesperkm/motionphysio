@@ -41,7 +41,10 @@
     </div>
 
     <div class="grid grid-pad">
-        <h2><span class="object">01</span><span class="break">/</span>products</h2>
+      <div class="overskrift">
+      <span class="object">01</span><span class="break">/</span>
+        <h2 class="clearfix">products</h2>
+        </div>
         <div class="longsep"></div>
         <div class="col-1-3">
            <div class="content">
@@ -128,7 +131,11 @@
     </div>
 
     <div class="grid grid-pad">
-     <h2><span class="object">02</span><span class="break">/</span>ACCESSORIES</h2>
+      <div class="overskrift">
+        <span class="object">02</span>
+        <span class="break">/</span>
+        <h2 class="clearfix">ACCESSORIES</h2>
+      </div>
         <div class="longsep"></div>
     <div class="col-1-5">
        <div class="content">
@@ -229,15 +236,14 @@
 
 <div class="longsep"></div>
 
-<section id="secondbreak">
+<section id="secondbreak" >
     <div class="grid grid-pad">
-       <h2><span class="object">01</span><span class="break">/</span>The Process blueprint</h2>
-
-  <!-- <section id="secondbreak">
-
-    <div class="grid grid-pad">
-       <h2><span class="object">01</span><span class="break">/</span>The Process</h2> -->
-    <div class="col-1-6">
+      <div class="overskrift center">
+        <span class="object">01</span>
+        <span class="break">/</span>
+        <h2 class="clearfix">The Process</h2>
+        </div>
+      <div class="col-1-6">
        <div class="content">
 
            <img src="img/process-1.png" alt="">
@@ -301,7 +307,11 @@
         </div>
         <div class="col-1-2">
             <div class="f-text-left">
-            <h2><span class="object">01</span><span class="break">/</span>About Raspberry Pi</h2>
+              <div class="overskrift">
+              <span class="object">01</span>
+              <span class="break">/</span>
+              <h2 class="clearfix">About Raspberry Pi</h2>
+               </div>
             <h1 class="abouttitle">Book Appointment and lets roll</h1>
                <p class="tell">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores.</p>
               <!--  <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image1.jpg" />
@@ -321,7 +331,11 @@
       <div class="grid grid-pad">
         <div class="col-1-2">
           <div class="f-text-right">          
-            <h2><span class="object">02</span><span class="break">/</span>Grant Full Support</h2>
+            <div class="overskrift">
+            <span class="object f-right">02</span>
+            <span class="break f-right">/</span>
+            <h2 class="clearfix">Grant Full Support</h2>
+            </div>
         
             <h1 class="abouttitle">Book Appointment and lets roll</h1>
                <p class="tell">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores.</p>
