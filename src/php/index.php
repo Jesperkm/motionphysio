@@ -61,7 +61,7 @@
                           <div class="quantity-plus quantity-plus-two"></div>
                         </div>
                       </li>
-                      <li class="shop"></li>
+                      <li class="shop" data-name="raspi1" data-price="200.00"></li>
                       <li class="info"></li>
                     </ul>
 
@@ -101,7 +101,7 @@
                           <div class="quantity-plus quantity-plus-two"></div>
                         </div>
                       </li>
-                      <li class="shop" data-name="raspi1" data-price="1.00"></li>
+                      <li class="shop" data-name="raspi2" data-price="200.00"></li>
                       <li class="info"></li>
                     </ul>
                </div>
@@ -122,7 +122,7 @@
                             <div class="quantity-plus quantity-plus-two"></div>
                           </div>
                       </li>
-                      <li class="shop"></li>
+                      <li class="shop" data-name="raspi3" data-price="200.00"></li>
                       <li class="info"></li>
                     </ul>
                </div>
@@ -151,7 +151,7 @@
                   <div class="quantity-plus-three"></div>
                 </div>
               </li>
-              <li class="shop-two"></li>
+              <li class="shop-two" data-name="acc-raspi1" data-price="200.00"></li>
               <li class="info"></li>
             </ul>
        </div>
@@ -170,7 +170,7 @@
                   <div class="quantity-plus-three"></div>
                 </div>
               </li>
-              <li class="shop-two"></li>
+              <li class="shop-two" data-name="acc-raspi2" data-price="200.00"></li>
               <li class="info"></li>
             </ul>
        </div>
@@ -189,7 +189,7 @@
                   <div class="quantity-plus-three"></div>
                 </div>
               </li>              
-              <li class="shop-two"></li>
+              <li class="shop-two" data-name="acc-raspi3" data-price="200.00"></li>
               <li class="info"></li>
             </ul>
        </div>
@@ -208,7 +208,7 @@
                   <div class="quantity-plus-three"></div>
                 </div>
               </li>
-              <li class="shop-two"></li>
+              <li class="shop-two" data-name="acc-raspi4" data-price="200.00"></li>
               <li class="info"></li>
             </ul>
        </div>
@@ -227,7 +227,7 @@
                   <div class="quantity-plus-three"></div>
                 </div>
               </li>              
-              <li class="shop-two"></li>
+              <li class="shop-two" data-name="acc-raspi5" data-price="200.00"></li>
               <li class="info"></li>
             </ul>
        </div>

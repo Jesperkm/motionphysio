@@ -8,7 +8,7 @@ Shop.prototype.init = function() {
     this.sessionKey = 'cart';
 
     // Products
-    this.$addToCartBtns = this.$element.find('li.shop');
+    this.$addToCartBtns = this.$element.find('li.shop, li.shop-two');
 
     // Cart
     this.$cart         = $('#shopping-cart');
@@ -54,14 +54,14 @@ Shop.prototype.addToCart = function() {
 
         if (price && name) {
             $this.on('click', function() {
-                if (!$(this).parent().hasClass('selecting-quantity-one')) {
+                if (!$(this).parent().hasClass('selecting-quantity')) {
                     // set parent as active one
-                    $('.box ul').removeClass('selecting-quantity-one');
-                    $(this).parent().addClass('selecting-quantity-one');
+                    self.$element.find('ul').removeClass('selecting-quantity');
+                    $(this).parent().addClass('selecting-quantity');
                 }
                 else {
                     // get quantity
-                    var qty = parseInt($this.parent().find('.quantity-input').val());
+                    var qty = parseInt($this.parent().find('input').val());
 
                     // get cart as json
                     var cart = JSON.parse(sessionStorage.getItem(self.sessionKey));

@@ -62,6 +62,7 @@ span.price {
 
 .content ul {
     margin-top:25px;
+    position: relative;
 }
 
 .content .box ul {
@@ -78,22 +79,21 @@ span.price {
 }
 
 
-.content li.shop, li.shop-two {
+.content li.shop,
+.content li.shop-two {
     background:#047dcf url("img/basket.png") center center no-repeat;
-    transition: background 400ms ease-in-out;
+    transition: 400ms ease-in;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
 }
 
-.content li.shop:hover, li.shop-two:hover{
+.content li.shop:hover,
+.content li.shop-two:hover{
     background-color:#014E83;
     cursor:pointer;
 }
-
-.content li.info {
-    background: url("img/info.png") center center no-repeat;
-    border:1px solid #dadada;
-    cursor:pointer;
-}   
-
 
 .content button {
     border: 1px solid #000;
@@ -232,114 +232,102 @@ span.priceacc{
     }
 }
 
-li.slide-in, li.slide-in-two {
-    width:0;
-    -webkit-transition:width .8s;
-    transition:width .8s;
-}
-
 .content li.info {
-    -webkit-transition:width .8s;
-    transition:width .8s;
+    background: #fff url("img/info.png") center center no-repeat;
+    border:1px solid #dadada;
+    cursor:pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transition: width 400ms ease-in;
+    transition: width 400ms ease-in;
+    z-index: 10;
 }
 
-.selecting-quantity-one {
-    .quantity-container-two {
-        height:100%;
-        width:160px;
-        float:left;
+.quantity-container-two {
+    height:100%;
+    width:167px;
+    float:left;
 
-        .quantity-minus-two,
-        .quantity-plus-two {
-            float: left;
-            height: 100%;
-            width:50px;
-            padding: 0 10px;
-            background-color: $whiteblue;
-            line-height: 48px;
-            font-size: 20px;
-            cursor: pointer;
-            background-image:url(img/minus.png);
-            background-position:center center;
-            background-repeat:no-repeat;
-            background-size:12px 12px;
-        }
-
-        .quantity-two {
-            width: 60px;
-            display: inline-block;
-            border: 0;
-            height: 100%;
-            text-align: center;
-            text-indent:0;
-        }
-
-        .quantity-plus-two {
-            background-image:url(img/plus.png);
-        }
+    .quantity-minus-two,
+    .quantity-plus-two {
+        float: left;
+        height: 100%;
+        width:50px;
+        padding: 0 10px;
+        background-color: $whiteblue;
+        line-height: 48px;
+        font-size: 20px;
+        cursor: pointer;
+        background-image:url(img/minus.png);
+        background-position:center center;
+        background-repeat:no-repeat;
+        background-size:12px 12px;
     }
 
-    li.info {
-        border:none;        
-        width:0;
+    .quantity-two {
+        width: 67px;
+        display: inline-block;
+        border: 0;
+        height: 100%;
+        text-align: center;
+        text-indent:0;
     }
 
-    li.show {
-        width:160px;
-        display:block;
+    .quantity-plus-two {
+        background-image:url(img/plus.png);
+    }
+}
+
+.quantity-container-three {
+    height:100%;
+    width:140px;
+    float:left;
+
+    .quantity-minus-three,
+    .quantity-plus-three {
+        float: left;
+        height: 100%;
+        width:40px;
+        padding: 0 10px;
+        background-color: $whiteblue;
+        line-height: 48px;
+        font-size: 20px;
+        cursor: pointer;
+        background-image:url(img/minus.png);
+        background-position:center center;
+        background-repeat:no-repeat;
+        background-size:12px 12px;
     }
 
-    li.slide-in {
-        width: 50%;
-        -webkit-transition:width .8s;
-        transition:width .8s;
+    .quantity-three {
+        width: 60px;
+        display: inline-block;
+        border: 0;
+        height: 100%;
+        text-align: center;
+        text-indent:0;
         border:1px solid #dadada;
     }
+
+    .quantity-plus-three {
+        background-image:url(img/plus.png);
+    }
 }
 
-.selecting-quantity-two {
-    .quantity-container-three {
-        height:100%;
-        width:140px;
-        float:left;
 
-        .quantity-minus-three,
-        .quantity-plus-three {
-            float: left;
-            height: 100%;
-            width:40px;
-            padding: 0 10px;
-            background-color: $whiteblue;
-            line-height: 48px;
-            font-size: 20px;
-            cursor: pointer;
-            background-image:url(img/minus.png);
-            background-position:center center;
-            background-repeat:no-repeat;
-            background-size:12px 12px;
-        }
 
-        .quantity-three {
-            width: 60px;
-            display: inline-block;
-            border: 0;
-            height: 100%;
-            text-align: center;
-            text-indent:0;
-            border:1px solid #dadada;
-        }
+.content .selecting-quantity {
+    li.info {
+        width: 0;
+    }
 
-        .quantity-plus-three {
-            background-image:url(img/plus.png);
-        }
+    li.shop {
+        left: 167px;  
     }
 
     li.hide {
         width:0;
-        border:none;
-    }
-
-    li.info.hide {
         border:none;
     }
 
@@ -358,14 +346,13 @@ li.slide-in, li.slide-in-two {
 
     li.slide-in-two {
         width:134px;
-    }
-
-    li.info {
-        border:none;        
-        width:0;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     li.shop-two {
         width:50px;
+        left: 134px;
     }
 }
