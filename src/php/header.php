@@ -6,12 +6,13 @@
     <title>Motion Physio</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <script src="https://maps.googleapis.com/maps/api/js"></script>
 </head>
 <body>
 
 <header>
-    <div id="logo"><img src="img/logo.png" alt="logo" /></div>
+    <div id="logo"><img src="img/Regame_logo.png" alt="logo" /></div>
     <nav>
         <ul class="clearfix">
             <li><a href="#home">Home</a></li>
