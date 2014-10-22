@@ -1,6 +1,6 @@
-# MotionPhysio
+# RegameMotion
 
-Website for motionphysio
+Website for RegameMotion
 
 [![Dependency Status](https://david-dm.org/isenhard/motionphysio.svg)](https://david-dm.org/isenhard/motionphysio)
 [![devDependency Status](https://david-dm.org/isenhard/motionphysio/dev-status.svg)](https://david-dm.org/isenhard/motionphysio#info=devDependencies)
