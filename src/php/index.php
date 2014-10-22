@@ -1,7 +1,7 @@
 <?php require "header.php"; ?>
 
 <section id="home">
-    <div class="module" id="home-text">
+    <div id="home-text">
         <h1>PROGRAM<br />REGAME<br />MOTION</h1>
         <div class="breaker"></div>
         <p>uses the great technology of the Raspberry Pi, combined with ‘Scratch MIT’ software to create a simple and fantastically easy to use platform to create games or other content. </p>
@@ -13,7 +13,7 @@
   <div class="grid grid-pad module">
       <div class="col-1-2">
          <div class="content">
-             <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image1.jpg">
+             <img class="aboutimg" alt="placeholder" width="61%" src="img/whatismotionphysio.png">
          </div>
       </div>
       <div class="col-1-2">
@@ -24,7 +24,7 @@
             <h2 class="clearfix">About Raspberry Pi</h2>
              </div>
           <h1 class="abouttitle">Book Appointment and lets roll</h1>
-             <p class="tell">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores.</p>
+             <p class="tell">REGAME MOTION is a project made possible by a great team of educated students of the Lillebaelt Academy of Professional Higher Education’ in Odense, Denmark.</p>
           </div>
       </div>
     </div>
