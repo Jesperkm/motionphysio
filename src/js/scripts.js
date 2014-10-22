@@ -1,5 +1,7 @@
-//Navigation Script
+// JQuery start
 $(function() {
+
+    //Navigation Script
     var menu = $('nav ul');
 
     $('#pull').on('click', function(e) {
@@ -151,13 +153,15 @@ function initialize() {
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(55.3809154, 10.4086351),
       map: map,
-      icon: 'img/googlepointer.png',
+      icon: 'img/google-pointer.png',
       size: new google.maps.Size(10, 10)
     });
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
+
+// Parallax on scroll
 (function($) {
 
   $.fn.visible = function(partial) {
@@ -166,7 +170,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
           $w            = $(window),
           viewTop       = $w.scrollTop(),
           viewBottom    = viewTop + $w.height(),
-          _top          = $t.offset().top,
+          _top          = $t.offset().top + 250,
           _bottom       = _top + $t.height(),
           compareTop    = partial === true ? _bottom : _top,
           compareBottom = partial === true ? _top : _bottom;
