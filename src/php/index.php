@@ -1,7 +1,7 @@
 <?php require "header.php"; ?>
 
 <section id="home">
-    <div id="home-text">
+    <div class="module" id="home-text">
         <h1>PROGRAM<br />REGAME<br />MOTION</h1>
         <div class="breaker"></div>
         <p>uses the great technology of the Raspberry Pi, combined with ‘Scratch MIT’ software to create a simple and fantastically easy to use platform to create games or other content. </p>
@@ -10,23 +10,30 @@
 </section>
 
 <section id="short-desc" class="clearfix">
-
-  <div class="short-desc-one">
-    <img alt="placeholder" src="img/firstbreak_image.jpg">
-  </div>
-
-  <div class="short-desc-two">
-    <h2 class="a-left"><span class="object">01</span><span class="break">/</span>WHAT IS REGAME MOTION</h2>
-      <h1 class="a-left">SHARING OUR EXPERTISE & KNOWLEDGE</h1>
-        <p class="a-left">REGAME MOTION is a project made possible by a great team of educated students of the Lillebaelt Academy of Professional Higher Education’ in Odense, Denmark. </p>
-          <div class="smallsep f-left"></div>
-  </div>
+  <div class="grid grid-pad module">
+      <div class="col-1-2">
+         <div class="content">
+             <img class="aboutimg" alt="placeholder" width="61%" src="img/about_image1.jpg">
+         </div>
+      </div>
+      <div class="col-1-2">
+          <div class="f-text-left">
+            <div class="overskrift">
+            <span class="object">01</span>
+            <span class="break">/</span>
+            <h2 class="clearfix">About Raspberry Pi</h2>
+             </div>
+          <h1 class="abouttitle">Book Appointment and lets roll</h1>
+             <p class="tell">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores cumque! A amet porro voluptatibus ducimus! Explicabo, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis veniam expedita velit quae error, at ducimus perspiciatis consequuntur, omnis et asperiores.</p>
+          </div>
+      </div>
+    </div>
 </section>
 
 <div class="longsep"></div>
 
 <section id="products">
-    <div class="grid grid-pad">
+    <div class="grid grid-pad module">
         <div class="col-1-1">
             <div class="content">
                 <h1>Products</h1>
@@ -38,13 +45,13 @@
         </div>
     </div>
 
-    <div class="grid grid-pad">
-      <div class="overskrift">
+    <div class="grid grid-pad module">
+      <div class="overskrift module">
       <span class="object">01</span><span class="break">/</span>
         <h2 class="clearfix">products</h2>
         </div>
-        <div class="longsep"></div>
-        <div class="col-1-3">
+        <div class="longsep module"></div>
+        <div class="col-1-3 module">
            <div class="content">
                <div class="box">
                <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
@@ -84,7 +91,7 @@
                </div>
            </div>
         </div>
-        <div class="col-1-3">
+        <div class="col-1-3 module">
            <div class="content">
                <div class="box">
                <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
@@ -105,7 +112,7 @@
                </div>
            </div>
         </div>
-        <div class="col-1-3">
+        <div class="col-1-3 module">
            <div class="content">
                <div class="box">
                <img id="image" width="50%" height="50%" alt="placeholder" src="img/motionphysio.jpg">
@@ -128,14 +135,14 @@
         </div>
     </div>
 
-    <div class="grid grid-pad">
-      <div class="overskrift">
+    <div class="grid grid-pad module">
+      <div class="overskrift module">
         <span class="object">02</span>
         <span class="break">/</span>
         <h2 class="clearfix">ACCESSORIES</h2>
       </div>
-        <div class="longsep"></div>
-    <div class="col-1-5">
+        <div class="longsep module"></div>
+    <div class="col-1-5 module">
        <div class="content">
            <img width="50%" height="50%" src="img/træningselastik1.jpg" alt="">
            <h5>Elastic for Raspberry Pi</h5>
@@ -154,7 +161,7 @@
             </ul>
        </div>
     </div>
-    <div class="col-1-5">
+    <div class="col-1-5 module">
        <div class="content">
            <img width="50%" height="50%" src="img/træningselastik2.jpg" alt="">
            <h5>Elastic for Raspberry Pi</h5>
@@ -173,7 +180,7 @@
             </ul>
        </div>
     </div>
-    <div class="col-1-5">
+    <div class="col-1-5 module">
        <div class="content">
            <img width="50%" height="50%" src="img/bandsizer_sensor.jpg" alt="">
            <h5>Sensor for Raspberry Pi</h5>
@@ -192,7 +199,7 @@
             </ul>
        </div>
     </div>
-    <div class="col-1-5">
+    <div class="col-1-5 module">
        <div class="content">
            <img width="50%" height="50%" src="img/SD32.jpg" alt="">
            <h5>SD Card for Raspberry Pi</h5>
@@ -211,7 +218,7 @@
             </ul>
        </div>
     </div>
-    <div class="col-1-5">
+    <div class="col-1-5 module">
        <div class="content">
            <img width="50%" height="50%" src="img/stromforsyning.jpg" alt="">
            <h5>Charger for Raspberry Pi</h5>
@@ -232,47 +239,47 @@
     </div>
 </section>
 
-<div class="longsep"></div>
+<div class="longsep module"></div>
 
 <section id="secondbreak" >
-    <div class="grid grid-pad">
+    <div class="grid grid-pad module">
       <div class="overskrift center">
         <span class="object">01</span>
         <span class="break">/</span>
         <h2 class="clearfix">The Process</h2>
         </div>
-      <div class="col-1-6">
+      <div class="col-1-6 module">
        <div class="content">
 
            <img src="img/process-1.png" alt="">
            <p>We identify your specific needs for the product, when you order.</p>
        </div>
     </div>
-    <div class="col-1-6">
+    <div class="col-1-6 module">
        <div class="content">
            <img src="img/process-2.png" alt="">
             <p>Then we start the creation of the product and all the games included. </p>
        </div>
     </div>
-    <div class="col-1-6">
+    <div class="col-1-6 module">
        <div class="content">
            <img src="img/process-3.png" alt="">
             <p>Then we call you, to make sure you get the right product for your exact needs. </p>
        </div>
     </div>
-    <div class="col-1-6">
+    <div class="col-1-6 module">
        <div class="content">
            <img src="img/process-4.png" alt="">
             <p>We finalize the product, design it, and get it ready for you to test. </p>
        </div>
     </div>
-    <div class="col-1-6">
+    <div class="col-1-6 module">
        <div class="content">
            <img src="img/process-5.png" alt="">
             <p>After the product is done, we meet up, and if there is any last corrections to your product, we will get it fixed.</p>
        </div>
     </div>
-    <div class="col-1-6">
+    <div class="col-1-6 module">
        <div class="content">
            <img src="img/process-6.png" alt="">
             <p>We deliver the product for you, and make sure you are happy with eveything, which is what we aim for! </p>
@@ -280,12 +287,12 @@
     </div>
 </section>
 
-<div class="longsep"></div>
+<div class="longsep module" ></div>
 
 <section id="about">
-    <div class="grid grid-pad">
-        <div class="col-1-1">
-          <div class="content">
+    <div class="grid grid-pad module">
+        <div class="col-1-1 module">
+          <div class="content module">
             <h1>ABOUT</h1>
             <div class="mediumsep"></div>
                 <p id="undertekst">
@@ -295,7 +302,7 @@
         </div>
     </div>
 
-    <div class="grid grid-pad">
+    <div class="grid grid-pad module">
         <div class="col-1-2">
            <div class="content">
                <img class="aboutimg" alt="about-the-pi" width="61%" src="img/aboutrasperry.png">
@@ -314,9 +321,9 @@
         </div>
     </div>
 
-    <div class="longsep"></div>
+    <div class="longsep module"></div>
 
-      <div class="grid grid-pad">
+      <div class="grid grid-pad module">
         <div class="col-1-2">
           <div class="f-text-right">          
             <div class="overskrift">
@@ -337,10 +344,10 @@
     </div>
 </section>
 
-<div class="longsep"></div>
+<div class="longsep module"></div>
 
 <section id="contact">
-  <div class="grid grid-pad">
+  <div class="grid grid-pad module">
       <div class="col-1-1">
         <div class="content">
           <h1>CONTACT</h1>
@@ -352,10 +359,10 @@
       </div>
   </div>
     
-  <div id="map_canvas"></div>
+  <div class="module" id="map_canvas"></div>
 
   <div id="contact-wrap">
-    <div id="contact-details">
+    <div class="module" id="contact-details">
       <h1>DETAILS</h1>
       <p class="contact-p">You can contact us simply by submitting the form followed by your message, or you can also contact us directly by email or phone below.</p>
       
@@ -376,39 +383,39 @@
     </div>
       
     <div id="contact-form">
-      <form action="" class="form" method="post" autocomplete="off">
+      <form action="" class="form module" method="post" autocomplete="off">
 
-          <fieldset>
+          <fieldset class="module">
               <label for="name">Name<span class="red"> *</label>
               <input type="text" name="name" id="name" />
           </fieldset>
       
-          <fieldset>
+          <fieldset class="module">
               <label for="email">Email<span class="red"> *</label>
               <input type="text" name="email" id="email" />
           </fieldset>
       
-          <fieldset>
+          <fieldset class="module">
               <label for="subject">Subject<span class="red"> *</label>
               <input type="text" name="subject" id="subject" />
           </fieldset>
 
-          <fieldset>
+          <fieldset class="module">
               <label for="company">Company<span class="red"> *</label>
               <input type="text" name="company" id="company" />
           </fieldset>
       
-          <fieldset>
+          <fieldset class="module">
               <label for="cellphone">Cellphone<span class="red"> *</label>
               <input type="text" name="cellphone" id="cellphone" />
           </fieldset>
       
-          <fieldset>
+          <fieldset class="module">
               <label for="city">City<span class="red"> *</label>
               <input type="text" name="city" id="city" />
           </fieldset>
 
-          <textarea name="text" id="detail"></textarea>
+          <textarea class="module" name="text" id="detail"></textarea>
           <input type="submit" value="SEND MESSAGE" id="submit"/>
       </form>
     </div>

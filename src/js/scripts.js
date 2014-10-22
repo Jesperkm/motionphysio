@@ -16,7 +16,6 @@ $(function() {
         }
     });
 
-
     //Smooth Scroll.
     var $root = $('html, body');
 
@@ -158,3 +157,45 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+(function($) {
+
+  $.fn.visible = function(partial) {
+    
+      var $t            = $(this),
+          $w            = $(window),
+          viewTop       = $w.scrollTop(),
+          viewBottom    = viewTop + $w.height(),
+          _top          = $t.offset().top,
+          _bottom       = _top + $t.height(),
+          compareTop    = partial === true ? _bottom : _top,
+          compareBottom = partial === true ? _top : _bottom;
+    
+    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+
+  };
+    
+    })(jQuery);
+
+    var win = $(window);
+
+    var allMods = $('.module');
+    /*jshint unused:false */
+    var el;
+    allMods.each(function(i, el) {
+      el = $(el);
+      if (el.visible(true)) {
+        el.addClass('already-visible');
+      }
+    });
+
+    win.scroll(function() {
+      
+      allMods.each(function(i, el) {
+        el = $(el);
+        if (el.visible(true)) {
+          el.addClass('come-in');
+        }
+      });
+      
+    });
