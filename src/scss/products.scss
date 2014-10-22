@@ -246,14 +246,14 @@ span.priceacc{
 
 .quantity-container-two {
     height:100%;
-    width:167px;
+    width: 100%;
     float:left;
 
     .quantity-minus-two,
     .quantity-plus-two {
         float: left;
         height: 100%;
-        width:50px;
+        width: 25%;
         padding: 0 10px;
         background-color: $whiteblue;
         line-height: 48px;
@@ -266,7 +266,7 @@ span.priceacc{
     }
 
     .quantity-two {
-        width: 67px;
+        width: 50%;
         display: inline-block;
         border: 0;
         height: 100%;
@@ -281,14 +281,14 @@ span.priceacc{
 
 .quantity-container-three {
     height:100%;
-    width:140px;
+    width: 100%;
     float:left;
 
     .quantity-minus-three,
     .quantity-plus-three {
         float: left;
         height: 100%;
-        width:40px;
+        width:25%;
         padding: 0 10px;
         background-color: $whiteblue;
         line-height: 48px;
@@ -301,7 +301,7 @@ span.priceacc{
     }
 
     .quantity-three {
-        width: 60px;
+        width: 50%;
         display: inline-block;
         border: 0;
         height: 100%;
@@ -324,7 +324,7 @@ span.priceacc{
     }
 
     li.shop {
-        left: 167px;  
+        left: 50%;  
     }
 
     li.hide {
@@ -346,14 +346,14 @@ span.priceacc{
     }
 
     li.slide-in-two {
-        width:134px;
+        width:50%;
         position: absolute;
         top: 0;
         left: 0;
     }
 
     li.shop-two {
-        width:50px;
-        left: 134px;
+        width:50%;
+        left: 50%;
     }
 }
