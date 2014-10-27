@@ -142,7 +142,7 @@
         <h2 class="clearfix">ACCESSORIES</h2>
       </div>
         <div class="longsep module"></div>
-    <div class="col-1-5 module">
+    <div class="col-1-5 module clearfix">
        <div class="content">
            <img width="50%" height="50%" src="img/træningselastik1.jpg" alt="">
            <h5>Elastic for Raspberry Pi</h5>
@@ -161,7 +161,7 @@
             </ul>
        </div>
     </div>
-    <div class="col-1-5 module">
+    <div class="col-1-5 module clearfix">
        <div class="content">
            <img width="50%" height="50%" src="img/træningselastik2.jpg" alt="">
            <h5>Elastic for Raspberry Pi</h5>
@@ -180,7 +180,7 @@
             </ul>
        </div>
     </div>
-    <div class="col-1-5 module">
+    <div class="col-1-5 module clearfix">
        <div class="content">
            <img width="50%" height="50%" src="img/bandsizer_sensor.jpg" alt="">
            <h5>Sensor for Raspberry Pi</h5>
@@ -199,7 +199,7 @@
             </ul>
        </div>
     </div>
-    <div class="col-1-5 module">
+    <div class="col-1-5 module clearfix">
        <div class="content">
            <img width="50%" height="50%" src="img/SD32.jpg" alt="">
            <h5>SD Card for Raspberry Pi</h5>
@@ -218,7 +218,7 @@
             </ul>
        </div>
     </div>
-    <div class="col-1-5 module">
+    <div class="col-1-5 module re-height clearfix">
        <div class="content">
            <img width="50%" height="50%" src="img/stromforsyning.jpg" alt="">
            <h5>Charger for Raspberry Pi</h5>
